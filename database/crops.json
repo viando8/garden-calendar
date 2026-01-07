@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "version": "1.0",
+        "last_updated": "2026-01-06"
+    },
+
+    "zones": {
+        "9a": {
+            "first_fall_frost_date": "11/13",
+            "last_spring_frost_date": "03/19"
+        }
+    },
+
+    "crops": {
+        "costoluto_genovese_tomato": {
+
+            "identity": {
+                "common_name": "Tomato Pole",
+                "variety_name": "Costoluto Genovese",
+                "scientific_name": "Solanum lycopersicum",
+                "category": "fruiting_vegetable",
+                "type": "heirloom"
+            },
+
+            "characteristics": {
+                "frost_tolerance": "sensitive"
+            },
+
+            "source": {
+                "company": "Botanical Interests",
+                "seed_count": 25,
+                "price": 2.69
+            },
+
+            "planting": {
+                "method": "transplant",
+                "seed_depth_inches": 0.25,
+                "days_to_emerge_range": [5, 10],
+                "weeks_before_transplant_range": [4, 6]
+            },
+
+            "transplanting": {
+                "recommended": true,
+                "weeks_after_last_frost_range": [1, 2],
+                "min_air_temp_f": 45
+            },
+
+            "direct_sow": {
+                "recommended": false,
+                "weeks_after_last_frost_range": [1, 2],
+                "min_soil_temp_f": 60
+            },
+
+            "days_to_harvest_from_transplant_range": [80, 90]
+
+        }
+    }
+}
