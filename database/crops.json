@@ -404,9 +404,7 @@
             },
             "transplanting": {
                 "recommended": true,
-                "start_indoors_weeks_before_last_frost_range": [8, 12],
-                "vernalization_required": true,
-                "vernalization_days_under_50f": [10, 12],
+                "start_indoors_weeks_before_transplant_range": [8, 12],
                 "planting_windows": {
                     "spring": {
                         "weeks_after_last_frost_range": [0, 2]
@@ -416,6 +414,10 @@
             },
             "successive_sowing": {
                 "recommendation": "not_recommended"
+            },
+            "special_requirements": {
+                "vernalization_required": true,
+                "vernalization_days_under_50f": [10, 12]
             }
         },
 
@@ -433,7 +435,6 @@
             "direct_sow": {
                 "recommended": true,
                 "min_soil_temp_f": 80,
-                "seed_soak_hours": [12, 24],
                 "planting_windows": {
                     "spring": {
                         "weeks_after_last_frost_range": [2, 6]
@@ -449,6 +450,9 @@
             },
             "successive_sowing": {
                 "recommendation": "not_recommended"
+            },
+            "special_requirements": {
+                "seed_soak_hours": [12, 24]
             }
         },
 
@@ -466,7 +470,6 @@
             "direct_sow": {
                 "recommended": true,
                 "min_soil_temp_f": 80,
-                "seed_soak_hours": [12, 24],
                 "planting_windows": {
                     "spring": {
                         "weeks_after_last_frost_range": [2, 6]
@@ -482,6 +485,9 @@
             },
             "successive_sowing": {
                 "recommendation": "not_recommended"
+            },
+            "special_requirements": {
+                "seed_soak_hours": [12, 24]
             }
         },
 
@@ -501,7 +507,7 @@
             },
             "transplanting": {
                 "recommended": true,
-                "start_indoors_weeks_before_last_frost_range": [4, 6],
+                "start_indoors_weeks_before_transplant_range": [4, 6],
                 "min_nighttime_temp_f": 50,
                 "planting_windows": {
                     "spring": {
@@ -531,37 +537,7 @@
             },
             "transplanting": {
                 "recommended": true,
-                "start_indoors_weeks_before_last_frost_range": [4, 6],
-                "min_nighttime_temp_f": 50,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
-                    }
-                }
-            },
-            "successive_sowing": {
-                "recommendation": "highly_recommended",
-                "interval_weeks": [3, 3]
-            }
-        },
-
-        "sweet_thai_basil": {
-            "characteristics": {
-                "common_name": "Basil Thai",
-                "variety_name": "Sweet Thai",
-                "scientific_name": "Ocimum basilicum",
-                "category": "herb",
-                "type": "heirloom",
-                "description": "Popular in SE Asian cuisine, holds flavor after cooking. Dark purple flowers, anise/clove hints. Terrific for containers. Annual",
-                "source_company": "Botanical Interests"
-            },
-            "days_to_emerge_range": [5, 10],
-            "direct_sow": {
-                "recommended": false
-            },
-            "transplanting": {
-                "recommended": true,
-                "start_indoors_weeks_before_last_frost_range": [4, 6],
+                "start_indoors_weeks_before_transplant_range": [4, 6],
                 "min_nighttime_temp_f": 50,
                 "planting_windows": {
                     "spring": {
@@ -578,12 +554,12 @@
         "thai_basil": {
             "characteristics": {
                 "common_name": "Basil Thai",
-                "variety_name": "Thai Basil",
+                "variety_name": "Thai Basil (Sweet Thai)",
                 "scientific_name": "Ocimum basilicum",
                 "category": "herb",
-                "type": "organic",
-                "description": "12-18\" tall. Harvest morning when cool. Complete harvest before flowering. Cut to 4-6\" for second growth. Annual",
-                "source_company": "Sereniseed"
+                "type": "heirloom/organic",
+                "description": "Popular in SE Asian cuisine, holds flavor after cooking. Dark purple flowers, anise/clove hints. 12-18\" tall. Harvest morning when cool. Complete harvest before flowering. Cut to 4-6\" for second growth. Terrific for containers. Annual",
+                "source_company": "Botanical Interests, Sereniseed"
             },
             "days_to_emerge_range": [5, 10],
             "direct_sow": {
@@ -591,13 +567,18 @@
             },
             "transplanting": {
                 "recommended": true,
-                "start_indoors_weeks_before_last_frost_range": [6, 6],
+                "start_indoors_weeks_before_transplant_range": [4, 6],
+                "min_nighttime_temp_f": 50,
                 "planting_windows": {
                     "spring": {
                         "weeks_after_last_frost_range": [0, 2]
                     }
                 },
-                "days_to_maturity_from_transplant_range": [64, 64]
+                "days_to_maturity_from_transplant_range": [60, 70]
+            },
+            "successive_sowing": {
+                "recommendation": "highly_recommended",
+                "interval_weeks": [3, 3]
             }
         },
 
@@ -617,13 +598,16 @@
             },
             "transplanting": {
                 "recommended": true,
-                "start_indoors_weeks_before_last_frost_range": [6, 8],
+                "start_indoors_weeks_before_transplant_range": [6, 8],
                 "planting_windows": {
                     "spring": {
                         "weeks_after_last_frost_range": [0, 4]
                     }
                 },
                 "days_to_maturity_from_transplant_range": [60, 60]
+            },
+            "successive_sowing": {
+                "recommendation": "not_recommended"
             }
         },
 
@@ -704,12 +688,15 @@
             },
             "transplanting": {
                 "recommended": true,
-                "start_indoors_weeks_before_last_frost_range": [12, 16],
+                "start_indoors_weeks_before_transplant_range": [12, 16],
                 "planting_windows": {
                     "spring": {
                         "weeks_after_last_frost_range": [0, 4]
                     }
                 }
+            },
+            "successive_sowing": {
+                "recommendation": "not_recommended"
             }
         },
 
@@ -720,29 +707,26 @@
                 "scientific_name": "Mentha sp.",
                 "category": "herb",
                 "type": "heirloom",
-                "description": "Heirloom. Perennial. Versatile, refreshing for drinks, jellies, dishes, crafts, bath",
+                "description": "Perennial in Zone 6+. Versatile for drinks, jellies, dishes, crafts, bath. Deer resistant",
                 "source_company": "Botanical Interests"
             },
+            "days_to_emerge_range": [7, 14],
             "direct_sow": {
-                "recommended": true,
-                "min_soil_temp_f": 68,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
-                    }
-                }
+                "recommended": false
             },
             "transplanting": {
                 "recommended": true,
-                "start_indoors_weeks_before_last_frost_range": [6, 8],
+                "start_indoors_weeks_before_transplant_range": [6, 8],
+                "min_soil_temp_f": 65,
                 "planting_windows": {
                     "spring": {
                         "weeks_after_last_frost_range": [1, 2]
                     }
                 }
             },
-            "days_to_emerge_range": [7, 14],
-            "days_to_maturity_range": null
+            "successive_sowing": {
+                "recommendation": "not_recommended"
+            }
         },
 
         "spearmint_mint": {
@@ -752,23 +736,27 @@
                 "scientific_name": "Mentha spicata",
                 "category": "herb",
                 "type": "organic",
-                "description": "Perennial. Enhances drinks, savory dishes, meats, stews. Tiny flowers attract bees. Deer resistant",
+                "description": "18-24\" tall. Perennial. Enhances drinks, savory dishes, meats, stews. Tiny flowers attract bees. Great for pollinators. Deer resistant. Prefers partial shade in hot climates.",
                 "source_company": "Back to the Roots"
             },
+            "days_to_emerge_range": [7, 14],
             "direct_sow": {
                 "recommended": false
             },
             "transplanting": {
                 "recommended": true,
-                "start_indoors_weeks_before_last_frost_range": [6, 8],
+                "start_indoors_weeks_before_transplant_range": [6, 8],
+                "min_soil_temp_f": 65,
                 "planting_windows": {
                     "spring": {
-                        "weeks_after_last_frost_range": [0, 2]
+                        "weeks_after_last_frost_range": [3, 6]
                     }
-                }
+                },
+                "days_to_maturity_from_transplant_range": [90, 120]
             },
-            "days_to_emerge_range": [7, 14],
-            "days_to_maturity_range": [90, 120]
+            "successive_sowing": {
+                "recommendation": "not_recommended"
+            }
         },
 
         "italian_oregano": {
@@ -778,28 +766,26 @@
                 "scientific_name": "Origanum vulgare",
                 "category": "herb",
                 "type": "organic",
-                "description": "Perennial, will spread. Water when dry",
+                "description": "Perennial (zones 4-10), will spread by rhizomes. Heat and frost tolerant. Water when soil is dry. Excellent for pizza, pasta, tomato sauces. Can remain evergreen in mild winters.",
                 "source_company": "Sereniseed"
             },
+            "days_to_emerge_range": [14, 14],
             "direct_sow": {
-                "recommended": true,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [2, 4]
-                    }
-                }
+                "recommended": false
             },
             "transplanting": {
                 "recommended": true,
-                "start_indoors_weeks_before_last_frost_range": [6, 8],
+                "start_indoors_weeks_before_transplant_range": [6, 8],
                 "planting_windows": {
                     "spring": {
-                        "weeks_after_last_frost_range": [0, 2]
+                        "weeks_after_last_frost_range": [3, 6]
                     }
-                }
+                },
+                "days_to_maturity_from_transplant_range": [85, 85]
             },
-            "days_to_emerge_range": [14, 14],
-            "days_to_maturity_range": [85, 85]
+            "successive_sowing": {
+                "recommendation": "not_recommended"
+            }
         },
 
         "giant_italian_parsley": {
@@ -809,28 +795,27 @@
                 "scientific_name": "Petroselinum crispum",
                 "category": "herb",
                 "type": "organic",
-                "description": "Biennial. Leaves 1st year, flowers/seed 2nd year. Annual plantings recommended. Keep moist",
+                "description": "Biennial. Leaves 1st year, flowers/seed 2nd year. Annual plantings recommended. Keep moist. Tolerates frost.",
                 "source_company": "Sereniseed"
             },
+            "days_to_emerge_range": [14, 14],
             "direct_sow": {
-                "recommended": false,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [0, 2]
-                    }
-                }
+                "recommended": false
             },
             "transplanting": {
                 "recommended": true,
-                "start_indoors_weeks_before_last_frost_range": [10, 12],
+                "start_indoors_weeks_before_transplant_range": [10, 12],
                 "planting_windows": {
                     "spring": {
                         "weeks_after_last_frost_range": [0, 2]
                     }
-                }
+                },
+                "days_to_maturity_from_transplant_range": [85, 85]
             },
-            "days_to_emerge_range": [14, 14],
-            "days_to_maturity_range": [85, 85]
+            "successive_sowing": {
+                "recommendation": "recommended",
+                "interval_weeks": [3, 4]
+            }
         },
 
         "rosemary": {
@@ -840,30 +825,25 @@
                 "scientific_name": "Rosmarinus officinalis",
                 "category": "herb",
                 "type": "heirloom",
-                "description": "Heirloom. Perennial zone 8+, annual elsewhere. Piney flavor for meats/veggies/bread. Lavender flowers attract pollinators. Drought tolerant. Deer resistant",
+                "description": "Perennial zone 8+, annual elsewhere. Piney flavor for meats/veggies/bread. Lavender flowers attract pollinators. Drought tolerant. Deer resistant.",
                 "source_company": "Botanical Interests"
             },
+            "days_to_emerge_range": [15, 30],
             "direct_sow": {
-                "recommended": false,
-                "min_soil_temp_f": 60,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
-                    }
-                }
+                "recommended": false
             },
             "transplanting": {
                 "recommended": true,
-                "start_indoors_weeks_before_last_frost_range": [10, 12],
-                "min_soil_temp_f": 65,
+                "start_indoors_weeks_before_transplant_range": [10, 12],
                 "planting_windows": {
                     "spring": {
                         "weeks_after_last_frost_range": [1, 2]
                     }
                 }
             },
-            "days_to_emerge_range": [15, 30],
-            "days_to_maturity_range": null
+            "successive_sowing": {
+                "recommendation": "not_recommended"
+            }
         },
 
         "broad_leaf_sage": {
@@ -873,28 +853,26 @@
                 "scientific_name": "Salvia officinalis",
                 "category": "herb",
                 "type": "organic",
-                "description": "Perennial. Loves dry, dislikes humidity. Max 50% harvest. Let establish before first harvest",
+                "description": "Perennial. Loves dry, dislikes humidity. Heat tolerant, frost hardy to 15°F. Max 50% harvest. Let establish before first harvest.",
                 "source_company": "Sereniseed"
             },
+            "days_to_emerge_range": [7, 21],
             "direct_sow": {
-                "recommended": true,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
-                    }
-                }
+                "recommended": false
             },
             "transplanting": {
                 "recommended": true,
-                "start_indoors_weeks_before_last_frost_range": [10, 10],
+                "start_indoors_weeks_before_transplant_range": [10, 10],
                 "planting_windows": {
                     "spring": {
                         "weeks_after_last_frost_range": [0, 2]
                     }
-                }
+                },
+                "days_to_maturity_from_transplant_range": [75, 75]
             },
-            "days_to_emerge_range": [7, 21],
-            "days_to_maturity_range": [75, 75]
+            "successive_sowing": {
+                "recommendation": "not_recommended"
+            }
         },
 
         "common_thyme": {
@@ -904,29 +882,26 @@
                 "scientific_name": "Thymus vulgaris",
                 "category": "herb",
                 "type": "organic",
-                "description": "Perennial. Shear whole plant at 4\" if spindly for denser regrowth",
+                "description": "Perennial. Heat and frost tolerant. Shear whole plant at 4\" if spindly for denser regrowth.",
                 "source_company": "Sereniseed"
             },
+            "days_to_emerge_range": [10, 15],
             "direct_sow": {
-                "recommended": true,
-                "min_soil_temp_f": 68,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [0, 2]
-                    }
-                }
+                "recommended": false
             },
             "transplanting": {
                 "recommended": true,
-                "start_indoors_weeks_before_last_frost_range": [8, 8],
+                "start_indoors_weeks_before_transplant_range": [8, 8],
                 "planting_windows": {
                     "spring": {
                         "weeks_after_last_frost_range": [0, 2]
                     }
-                }
+                },
+                "days_to_maturity_from_transplant_range": [85, 85]
             },
-            "days_to_emerge_range": [10, 15],
-            "days_to_maturity_range": [85, 85]
+            "successive_sowing": {
+                "recommendation": "not_recommended"
+            }
         },
 
         "basella_alba_malabar_spinach": {
@@ -936,25 +911,26 @@
                 "scientific_name": "Basella alba",
                 "category": "leafy_green",
                 "type": "heirloom",
-                "description": "Vigorous climbing Asian vine, flourishes in heat/humidity. Glossy thick leaves, mild Swiss chard-like taste",
+                "description": "Vigorous climbing Asian vine, flourishes in heat/humidity. Glossy thick leaves, mild Swiss chard-like taste. Rambling stems require trellis support. Dies at first frost.",
                 "source_company": "Burpee"
             },
+            "days_to_emerge_range": [7, 14],
             "direct_sow": {
                 "recommended": true,
+                "soil_temp_range_f": [70, 90],
                 "planting_windows": {
                     "spring": {
-                        "weeks_after_last_frost_range": [4, 8]
-                    },
-                    "summer_for_fall": {
-                        "weeks_before_first_frost_range": [8, 11]
+                        "weeks_after_last_frost_range": [6, 10]
                     }
-                }
+                },
+                "days_to_maturity_from_seed_range": [60, 60]
             },
             "transplanting": {
                 "recommended": false
             },
-            "days_to_emerge_range": [7, 14],
-            "days_to_maturity_range": [60, 60]
+            "successive_sowing": {
+                "recommendation": "not_recommended"
+            }
         },
 
         "basella_rubra_malabar_spinach": {
@@ -964,25 +940,26 @@
                 "scientific_name": "Basella rubra",
                 "category": "leafy_green",
                 "type": "heirloom",
-                "description": "Vigorous climbing vine, loves summer heat/humidity. Glossy thick leaves, mild Swiss chard taste",
+                "description": "Vigorous climbing vine, loves summer heat/humidity. Glossy thick leaves with red/purple stems, mild Swiss chard taste. Rambling stems require trellis. Dies at first frost.",
                 "source_company": "Burpee"
             },
+            "days_to_emerge_range": [7, 14],
             "direct_sow": {
                 "recommended": true,
+                "soil_temp_range_f": [70, 90],
                 "planting_windows": {
                     "spring": {
-                        "weeks_after_last_frost_range": [4, 8]
-                    },
-                    "summer_for_fall": {
-                        "weeks_before_first_frost_range": [8, 11]
+                        "weeks_after_last_frost_range": [6, 10]
                     }
-                }
+                },
+                "days_to_maturity_from_seed_range": [60, 80]
             },
             "transplanting": {
                 "recommended": false
             },
-            "days_to_emerge_range": [7, 14],
-            "days_to_maturity_range": [60, 80]
+            "successive_sowing": {
+                "recommendation": "not_recommended"
+            }
         },
 
         "long_island_improved_brussels_sprouts": {
@@ -990,60 +967,63 @@
                 "common_name": "Brussels Sprouts",
                 "variety_name": "Long Island Improved",
                 "scientific_name": "Brassica oleracea var. gemmifera",
-                "category": "leafy_green",
+                "category": "brassica",
                 "type": "heirloom",
-                "description": "Compact 20-24\" stalks, 50-100 dark-green 1¼-1½\" sprouts. Excellent nutrition, freezes well",
+                "description": "Compact 20-24\" stalks bear 50-100 dark-green 1¼-1½\" sprouts. Excellent nutrition, freezes well. Cool season crop.",
                 "source_company": "Ferry-Morse"
             },
-            "direct_sow": {
-                "recommended": false,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [0, 2]
-                    }
-                }
-            },
-            "transplanting": {
-                "recommended": true,
-                "start_indoors_weeks_before_last_frost_range": [6, 8],
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [0, 2]
-                    }
-                }
-            },
             "days_to_emerge_range": [7, 14],
-            "days_to_maturity_range": [90, 100]
-        },
-
-        "michihili_chinese_cabbage": {
-            "characteristics": {
-                "common_name": "Cabbage",
-                "variety_name": "Michihili Chinese",
-                "scientific_name": "Brassica rapa var. pekinensis",
-                "category": "leafy_green",
-                "type": "heirloom",
-                "description": "Chinese cabbage variety",
-                "source_company": "Sustainable Food Center"
-            },
             "direct_sow": {
                 "recommended": false
             },
             "transplanting": {
                 "recommended": true,
+                "start_indoors_weeks_before_transplant_range": [6, 8],
                 "planting_windows": {
-                    "fall": {
-                        "start_indoors_weeks_before_first_frost_range": [14, 16],
-                        "transplant_weeks_before_first_frost_range": [10, 12]
-                    },
                     "spring": {
-                        "start_indoors_weeks_before_last_frost_range": [6, 8],
-                        "transplant_weeks_before_last_frost_range": [4, 6]
+                        "weeks_before_last_frost_range": [4, 6]
+                    },
+                    "fall": {
+                        "weeks_before_first_frost_range": [10, 14]
                     }
-                }
+                },
+                "days_to_maturity_from_transplant_range": [90, 100]
             },
-            "days_to_emerge_range": [6, 10],
-            "days_to_maturity_range": [50, 85]
+            "successive_sowing": {
+                "recommendation": "not_recommended"
+            }
+        },
+
+        "michihili_chinese_cabbage": {
+            "characteristics": {
+                "common_name": "Chinese Cabbage",
+                "variety_name": "Michihili",
+                "scientific_name": "Brassica rapa var. pekinensis",
+                "category": "brassica",
+                "type": "heirloom",
+                "description": "Tall cylindrical heads of tender, sweet Chinese cabbage. Cool season crop.",
+                "source_company": "Sustainable Food Center"
+            },
+            "days_to_emerge_range": [5, 10],
+            "direct_sow": {
+                "recommended": false
+            },
+            "transplanting": {
+                "recommended": true,
+                "start_indoors_weeks_before_transplant_range": [6, 8],
+                "planting_windows": {
+                    "spring": {
+                        "weeks_before_last_frost_range": [4, 6]
+                    },
+                    "fall": {
+                        "weeks_before_first_frost_range": [12, 14]
+                    }
+                },
+                "days_to_maturity_from_transplant_range": [65, 70]
+            },
+            "successive_sowing": {
+                "recommendation": "not_recommended"
+            }
         },
 
         "red_white_russian_kale": {
@@ -1051,24 +1031,31 @@
                 "common_name": "Kale",
                 "variety_name": "Red & White Russian",
                 "scientific_name": "Brassica oleracea var. sabellica",
-                "category": "leafy_green",
+                "category": "brassica",
                 "type": "heirloom",
-                "description": "Blend of Red and White Russian. Deeply seriated curly leaves, tender for salad/bunching. Frost improves flavor",
+                "description": "Blend of Red and White Russian. Deeply seriated curly leaves, tender for salad/bunching. Medium-tall plants, frost improves flavor.",
                 "source_company": "Ferry-Morse"
             },
+            "days_to_emerge_range": [8, 12],
             "direct_sow": {
                 "recommended": true,
                 "planting_windows": {
                     "spring": {
-                        "weeks_after_last_frost_range": [0, 2]
+                        "weeks_before_last_frost_range": [2, 6]
+                    },
+                    "fall": {
+                        "weeks_before_first_frost_range": [8, 12]
                     }
-                }
+                },
+                "days_to_maturity_from_seed_range": [50, 60]
             },
             "transplanting": {
                 "recommended": false
             },
-            "days_to_emerge_range": [8, 12],
-            "days_to_maturity_range": [50, 60]
+            "successive_sowing": {
+                "recommendation": "recommended",
+                "interval_weeks": [3, 4]
+            }
         },
 
         "black_seeded_simpson_lettuce": {
@@ -1077,55 +1064,63 @@
                 "variety_name": "Black Seeded Simpson",
                 "scientific_name": "Lactuca sativa",
                 "category": "leafy_green",
-                "type": "organic",
-                "description": "Crisp loose heads, broad light-green frilled crumpled leaves, delicate flavor",
+                "type": "heirloom",
+                "description": "Crisp loose leaf heads with broad, light-green, frilled and crumpled leaves. Delicate flavor. Heat-sensitive.",
                 "source_company": "Burpee"
             },
+            "days_to_emerge_range": [7, 10],
             "direct_sow": {
                 "recommended": true,
                 "planting_windows": {
                     "spring": {
-                        "weeks_before_last_frost_range": [4, 2]
+                        "weeks_before_last_frost_range": [6, 2]
                     },
                     "fall": {
-                        "weeks_before_first_frost_range": [10, 8]
+                        "weeks_before_first_frost_range": [10, 14]
                     }
-                }
+                },
+                "days_to_maturity_from_seed_range": [45, 45]
             },
             "transplanting": {
                 "recommended": false
             },
-            "days_to_emerge_range": [7, 10],
-            "days_to_maturity_range": [45, 45]
+            "successive_sowing": {
+                "recommendation": "highly_recommended",
+                "interval_weeks": [2, 3]
+            }
         },
 
         "thank_you_lettuce_mesclun": {
             "characteristics": {
                 "common_name": "Lettuce",
-                "variety_name": "Thank You Mesclun",
+                "variety_name": "Thank You Mesclun Mix",
                 "scientific_name": "Lactuca sativa",
                 "category": "leafy_green",
-                "type": "mix",
-                "description": "Custom mesclun blend for fresh beautiful salads. No thinning required for baby greens",
+                "type": "mesclun_mix",
+                "description": "Custom mesclun blend for fresh salads. No thinning required for baby greens. Broadcast sowing. Light aids germination.",
                 "source_company": "Botanical Interests"
             },
+            "days_to_emerge_range": [5, 14],
             "direct_sow": {
                 "recommended": true,
-                "min_soil_temp_f": 40,
+                "soil_temp_range_f": [40, 70],
                 "planting_windows": {
                     "spring": {
                         "weeks_before_last_frost_range": [2, 4]
                     },
-                    "fall": {
-                        "weeks_before_first_frost_range": [2, 14]
+                    "fall_into_winter": {
+                        "weeks_before_first_frost_range": [6, 14]
                     }
-                }
+                },
+                "days_to_maturity_from_seed_range": [20, 45]
             },
             "transplanting": {
                 "recommended": false
             },
-            "days_to_emerge_range": [5, 14],
-            "days_to_maturity_range": [20, 45]
+            "successive_sowing": {
+                "recommendation": "highly_recommended",
+                "interval_weeks": [3, 3]
+            }
         },
 
         "mustard_greens": {
