@@ -6,12 +6,46 @@
 
     "zones": {
         "9a": {
-            "first_fall_frost_date": "11/13",
-            "last_spring_frost_date": "03/19"
+            "first_fall_frost_date": "12/01",
+            "last_spring_frost_date": "03/01"
         }
     },
 
     "crops": {
+        "chocolate_cherry_tomato": {
+            "characteristics": {
+                "common_name": "Tomato Pole Cherry",
+                "variety_name": "Chocolate Cherry",
+                "scientific_name": "Solanum lycopersicum",
+                "category": "fruiting_vegetable",
+                "type": "organic",
+                "determinate": false,
+                "description": "1\" purplish-red cherry, prolific vines, 6-8 fruits per truss",
+                "source_company": "Botanical Interests"
+            },
+            "days_to_emerge_range": [5, 10],
+            "direct_sow": {
+                "recommended": false
+            },
+            "transplanting": {
+                "recommended": true,
+                "start_indoors_weeks_before_transplant_range": [4, 6],
+                "min_air_temp_f": 45,
+                "planting_windows": {
+                    "spring": {
+                        "weeks_after_last_frost_range": [1, 8]
+                    },
+                    "fall": {
+                        "weeks_before_first_frost_range": [12, 14]
+                    }
+                },
+                "days_to_maturity_from_transplant_range": [70, 70]
+            },
+            "successive_sowing": {
+                "recommendation": "not_recommended"
+            }
+        },
+
         "costoluto_genovese_tomato": {
             "characteristics": {
                 "common_name": "Tomato Pole",
@@ -23,175 +57,27 @@
                 "description": "Deeply ribbed 6-8 oz fruits, thick walls, meaty texture",
                 "source_company": "Botanical Interests"
             },
-
-            "direct_sow": {
-                "recommended": false,
-                "min_soil_temp_f": 60,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
-                    }
-                }
-            },
-
-            "transplanting": {
-                "recommended": true,
-                "start_indoors_weeks_before_transplant_range": [4, 6],
-                "min_air_temp_f": 45,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
-                    }
-                }
-            },
-
             "days_to_emerge_range": [5, 10],
-            "days_to_harvest_from_transplant_range": [80, 90]
-        },
-
-        "pineapple_tomato": {
-            "characteristics": {
-                "common_name": "Tomato Pole",
-                "variety_name": "Pineapple",
-                "scientific_name": "Solanum lycopersicum",
-                "category": "fruiting_vegetable",
-                "type": "heirloom",
-                "determinate": false,
-                "description": "Large beefsteak type, yellow-orange with red hints",
-                "source_company": "Botanical Interests"
-            },
-
-            "direct_sow": {
-                "recommended": false,
-                "min_soil_temp_f": 60,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
-                    }
-                }
-            },
-
-            "transplanting": {
-                "recommended": true,
-                "start_indoors_weeks_before_transplant_range": [4, 6],
-                "min_air_temp_f": 45,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
-                    }
-                }
-            },
-
-            "days_to_emerge_range": [5, 10],
-            "days_to_harvest_from_transplant_range": [90, 90]
-        },
-
-        "patio_choice_yellow_tomato": {
-            "characteristics": {
-                "common_name": "Tomato Bush Cherry",
-                "variety_name": "Patio Choice Yellow",
-                "scientific_name": "Solanum lycopersicum",
-                "category": "fruiting_vegetable",
-                "type": "hybrid",
-                "determinate": true,
-                "description": "Compact cherry tomato, 1/2-oz yellow fruits, container-friendly",
-                "source_company": "Botanical Interests"
-            },
-
-            "direct_sow": {
-                "recommended": false,
-                "min_soil_temp_f": 60,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
-                    }
-                }
-            },
-
-            "transplanting": {
-                "recommended": true,
-                "start_indoors_weeks_before_transplant_range": [4, 6],
-                "min_air_temp_f": 45,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
-                    }
-                }
-            },
-
-            "days_to_emerge_range": [5, 10],
-            "days_to_harvest_from_transplant_range": [45, 45]
-        },
-
-        "super_sweet_100_tomato": {
-            "characteristics": {
-                "common_name": "Tomato",
-                "variety_name": "Super Sweet 100",
-                "scientific_name": "Solanum lycopersicum",
-                "category": "fruiting_vegetable",
-                "type": "hybrid",
-                "determinate": false,
-                "description": "Extra-prolific cherry tomato, long multiple-branched clusters",
-                "source_company": "Burpee"
-            },
-
             "direct_sow": {
                 "recommended": false
             },
-
-            "transplanting": {
-                "recommended": true,
-                "start_indoors_weeks_before_transplant_range": [6, 8],
-                "min_air_temp_f": null,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [-2, 8]
-                    },
-                    "fall": {
-                        "weeks_before_first_frost_range": [16, 10]
-                    }
-                }
-            },
-
-            "days_to_emerge_range": [7, 10],
-            "days_to_harvest_from_transplant_range": [70, 70]
-        },
-
-        "chocolate_cherry_tomato": {
-            "characteristics": {
-                "common_name": "Tomato Pole Cherry",
-                "variety_name": "Chocolate Cherry",
-                "scientific_name": "Solanum lycopersicum",
-                "category": "fruiting_vegetable",
-                "type": "organic",
-                "determinate": false,
-                "description": "1\" purplish-red cherry tomatoes, prolific vines with 6-8 fruits per truss",
-                "source_company": "Botanical Interests"
-            },
-
-            "direct_sow": {
-                "recommended": false,
-                "min_soil_temp_f": 60,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
-                    }
-                }
-            },
-
             "transplanting": {
                 "recommended": true,
                 "start_indoors_weeks_before_transplant_range": [4, 6],
                 "min_air_temp_f": 45,
                 "planting_windows": {
                     "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
+                        "weeks_after_last_frost_range": [1, 8]
+                    },
+                    "fall": {
+                        "weeks_before_first_frost_range": [12, 14]
                     }
-                }
+                },
+                "days_to_maturity_from_transplant_range": [80, 90]
             },
-
-            "days_to_emerge_range": [5, 10],
-            "days_to_harvest_from_transplant_range": [70, 70]
+            "successive_sowing": {
+                "recommendation": "not_recommended"
+            }
         },
 
         "cream_sausage_tomato": {
@@ -202,33 +88,31 @@
                 "category": "fruiting_vegetable",
                 "type": "heirloom",
                 "determinate": true,
-                "description": "Cylindrical cream to pale yellow tomatoes, compact plants, best harvested at 3\"",
+                "description": "Cylindrical cream to pale yellow, compact plants, best harvested at 3\"",
                 "source_company": "Botanical Interests"
             },
-
+            "days_to_emerge_range": [5, 10],
             "direct_sow": {
-                "recommended": false,
-                "min_soil_temp_f": 60,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
-                    }
-                }
+                "recommended": false
             },
-
             "transplanting": {
                 "recommended": true,
                 "start_indoors_weeks_before_transplant_range": [4, 6],
                 "min_air_temp_f": 45,
                 "planting_windows": {
                     "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
+                        "weeks_after_last_frost_range": [1, 8]
+                    },
+                    "fall": {
+                        "weeks_before_first_frost_range": [12, 14]
                     }
-                }
+                },
+                "days_to_maturity_from_transplant_range": [80, 80]
             },
-
-            "days_to_emerge_range": [5, 10],
-            "days_to_harvest_from_transplant_range": [80, 80]
+            "successive_sowing": {
+                "recommendation": "recommended",
+                "interval_weeks": [3, 4]
+            }
         },
 
         "indigo_rose_tomato": {
@@ -239,76 +123,133 @@
                 "category": "fruiting_vegetable",
                 "type": "organic",
                 "determinate": false,
-                "description": "Dark purplish-brown 2-oz cherry tomatoes, high anthocyanin, clusters of 6-8, 5' vines",
+                "description": "Dark purplish-brown 2-oz cherry, high anthocyanin, 6-8 per cluster, 5' vines",
                 "source_company": "Botanical Interests"
             },
-
+            "days_to_emerge_range": [5, 10],
             "direct_sow": {
-                "recommended": false,
-                "min_soil_temp_f": 60,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
-                    }
-                }
+                "recommended": false
             },
-
             "transplanting": {
                 "recommended": true,
                 "start_indoors_weeks_before_transplant_range": [4, 6],
                 "min_air_temp_f": 45,
                 "planting_windows": {
                     "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
+                        "weeks_after_last_frost_range": [1, 8]
+                    },
+                    "fall": {
+                        "weeks_before_first_frost_range": [12, 14]
                     }
-                }
+                },
+                "days_to_maturity_from_transplant_range": [80, 90]
             },
-
-            "days_to_emerge_range": [5, 10],
-            "days_to_harvest_from_transplant_range": [80, 90]
+            "successive_sowing": {
+                "recommendation": "not_recommended"
+            }
         },
 
-        "thai_hot_pepper": {
+        "patio_choice_yellow_tomato": {
             "characteristics": {
-                "common_name": "Pepper Chile",
-                "variety_name": "Thai Hot",
-                "scientific_name": "Capsicum annuum",
+                "common_name": "Tomato Bush Cherry",
+                "variety_name": "Patio Choice Yellow",
+                "scientific_name": "Solanum lycopersicum",
                 "category": "fruiting_vegetable",
-                "type": "heirloom",
-                "description": "Compact 8\" plants, upright 1.5-3\" red peppers, 50,000-100,000 Scoville units",
+                "type": "hybrid",
+                "determinate": true,
+                "description": "Compact cherry, 1/2-oz yellow fruits, container-friendly",
                 "source_company": "Botanical Interests"
             },
-
+            "days_to_emerge_range": [5, 10],
             "direct_sow": {
-                "recommended": false,
-                "min_soil_temp_f": 70,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [2, 4]
-                    },
-                    "summer": {
-                        "weeks_before_first_frost_range": [18, 14]
-                    }
-                }
+                "recommended": false
             },
-
             "transplanting": {
                 "recommended": true,
-                "start_indoors_weeks_before_transplant_range": [8, 10],
-                "min_air_temp_f": 70,
-                "min_nighttime_temp_f": 55,
+                "start_indoors_weeks_before_transplant_range": [4, 6],
+                "min_air_temp_f": 45,
                 "planting_windows": {
                     "spring": {
-                        "weeks_after_last_frost_range": [2, 4]
+                        "weeks_after_last_frost_range": [1, 8]
                     },
-                    "summer": {
-                        "weeks_before_first_frost_range": [16, 12]
+                    "fall": {
+                        "weeks_before_first_frost_range": [12, 14]
                     }
-                }
+                },
+                "days_to_maturity_from_transplant_range": [45, 45]
             },
+            "successive_sowing": {
+                "recommendation": "recommended",
+                "interval_weeks": [3, 4]
+            }
+        },
 
-            "days_to_emerge_range": [10, 25],
-            "days_to_harvest_from_transplant_range": [90, 90]
+        "pineapple_tomato": {
+            "characteristics": {
+                "common_name": "Tomato Pole",
+                "variety_name": "Pineapple",
+                "scientific_name": "Solanum lycopersicum",
+                "category": "fruiting_vegetable",
+                "type": "heirloom",
+                "determinate": false,
+                "description": "Large beefsteak, yellow-orange with red hints",
+                "source_company": "Botanical Interests"
+            },
+            "days_to_emerge_range": [5, 10],
+            "direct_sow": {
+                "recommended": false
+            },
+            "transplanting": {
+                "recommended": true,
+                "start_indoors_weeks_before_transplant_range": [4, 6],
+                "min_air_temp_f": 45,
+                "planting_windows": {
+                    "spring": {
+                        "weeks_after_last_frost_range": [1, 8]
+                    },
+                    "fall": {
+                        "weeks_before_first_frost_range": [12, 14]
+                    }
+                },
+                "days_to_maturity_from_transplant_range": [90, 90]
+            },
+            "successive_sowing": {
+                "recommendation": "not_recommended"
+            }
+        },
+
+        "super_sweet_100_tomato": {
+            "characteristics": {
+                "common_name": "Tomato",
+                "variety_name": "Super Sweet 100",
+                "scientific_name": "Solanum lycopersicum",
+                "category": "fruiting_vegetable",
+                "type": "hybrid",
+                "determinate": false,
+                "description": "Extra-prolific cherry, long multiple-branched clusters",
+                "source_company": "Burpee"
+            },
+            "days_to_emerge_range": [7, 10],
+            "direct_sow": {
+                "recommended": false
+            },
+            "transplanting": {
+                "recommended": true,
+                "start_indoors_weeks_before_transplant_range": [6, 8],
+                "min_air_temp_f": 45,
+                "planting_windows": {
+                    "spring": {
+                        "weeks_after_last_frost_range": [1, 8]
+                    },
+                    "fall": {
+                        "weeks_before_first_frost_range": [12, 14]
+                    }
+                },
+                "days_to_maturity_from_transplant_range": [70, 70]
+            },
+            "successive_sowing": {
+                "recommendation": "not_recommended"
+            }
         },
 
         "big_thai_hybrid_pepper": {
@@ -318,14 +259,12 @@
                 "scientific_name": "Capsicum annuum",
                 "category": "fruiting_vegetable",
                 "type": "hybrid",
-                "description": "30\" plants, 4-5\" medium-hot peppers, mature from green to dark red",
+                "description": "30\" plants, 4-5\" medium-hot, mature green to dark red",
                 "source_company": "Burpee"
             },
-
             "direct_sow": {
                 "recommended": false
             },
-
             "transplanting": {
                 "recommended": true,
                 "start_indoors_weeks_before_transplant_range": [8, 8],
@@ -340,9 +279,8 @@
                     }
                 }
             },
-
             "days_to_emerge_range": [10, 21],
-            "days_to_harvest_from_transplant_range": [69, 69]
+            "days_to_maturity_from_transplant_range": [69, 69]
         },
 
         "candy_cane_chocolate_cherry_pepper": {
@@ -352,10 +290,9 @@
                 "scientific_name": "Capsicum annuum",
                 "category": "fruiting_vegetable",
                 "type": "hybrid",
-                "description": "1.5\" sweet peppers with candy cane stripes, variegated foliage, ripen green/white to chocolate red/cream",
+                "description": "1.5\" sweet with candy cane stripes, variegated foliage, ripen green/white to chocolate red/cream",
                 "source_company": "Botanical Interests"
             },
-
             "direct_sow": {
                 "recommended": false,
                 "min_soil_temp_f": 70,
@@ -368,7 +305,6 @@
                     }
                 }
             },
-
             "transplanting": {
                 "recommended": true,
                 "start_indoors_weeks_before_transplant_range": [8, 10],
@@ -383,9 +319,8 @@
                     }
                 }
             },
-
             "days_to_emerge_range": [10, 25],
-            "days_to_harvest_from_transplant_range": [70, 75]
+            "days_to_maturity_from_transplant_range": [70, 75]
         },
 
         "shishito_pepper": {
@@ -395,10 +330,9 @@
                 "scientific_name": "Capsicum annuum",
                 "category": "fruiting_vegetable",
                 "type": "organic",
-                "description": "2-4\" slender peppers, citrusy slightly smoky flavor, 50-200 Scoville (mildly hot), highly productive",
+                "description": "2-4\" slender, citrusy slightly smoky, 50-200 Scoville (mildly hot), highly productive",
                 "source_company": "Botanical Interests"
             },
-
             "direct_sow": {
                 "recommended": false,
                 "min_soil_temp_f": 70,
@@ -411,7 +345,6 @@
                     }
                 }
             },
-
             "transplanting": {
                 "recommended": true,
                 "start_indoors_weeks_before_transplant_range": [8, 10],
@@ -426,9 +359,272 @@
                     }
                 }
             },
-
             "days_to_emerge_range": [10, 25],
-            "days_to_harvest_from_transplant_range": [60, 75]
+            "days_to_maturity_from_transplant_range": [60, 75]
+        },
+
+        "thai_hot_pepper": {
+            "characteristics": {
+                "common_name": "Pepper Chile",
+                "variety_name": "Thai Hot",
+                "scientific_name": "Capsicum annuum",
+                "category": "fruiting_vegetable",
+                "type": "heirloom",
+                "description": "Compact 8\" plants, upright 1.5-3\" red, 50,000-100,000 Scoville units",
+                "source_company": "Botanical Interests"
+            },
+            "direct_sow": {
+                "recommended": false,
+                "min_soil_temp_f": 70,
+                "planting_windows": {
+                    "spring": {
+                        "weeks_after_last_frost_range": [2, 4]
+                    },
+                    "summer": {
+                        "weeks_before_first_frost_range": [18, 14]
+                    }
+                }
+            },
+            "transplanting": {
+                "recommended": true,
+                "start_indoors_weeks_before_transplant_range": [8, 10],
+                "min_air_temp_f": 70,
+                "min_nighttime_temp_f": 55,
+                "planting_windows": {
+                    "spring": {
+                        "weeks_after_last_frost_range": [2, 4]
+                    },
+                    "summer": {
+                        "weeks_before_first_frost_range": [16, 12]
+                    }
+                }
+            },
+            "days_to_emerge_range": [10, 25],
+            "days_to_maturity_from_transplant_range": [90, 90]
+        },
+
+        "green_globe_artichoke": {
+            "characteristics": {
+                "common_name": "Artichoke",
+                "variety_name": "Green Globe",
+                "scientific_name": "Cynara cardunculus var. scolymus",
+                "category": "fruiting_vegetable",
+                "type": "heirloom",
+                "description": "Flowers early summer. Deep green buds with light purple tint. 3-4 heads per summer",
+                "source_company": "Ferry-Morse"
+            },
+            "direct_sow": {
+                "recommended": false
+            },
+            "transplanting": {
+                "recommended": true,
+                "start_indoors_weeks_before_last_frost_range": [8, 12],
+                "max_temp_f": 50,
+                "planting_windows": {
+                    "spring": {
+                        "weeks_after_last_frost_range": [0, 2]
+                    }
+                }
+            },
+            "days_to_emerge_range": [10, 20],
+            "days_to_maturity_range": [85, 120]
+        },
+
+        "clemson_spineless_80_okra": {
+            "characteristics": {
+                "common_name": "Okra",
+                "variety_name": "Clemson Spineless 80",
+                "scientific_name": "Abelmoschus esculentus",
+                "category": "fruiting_vegetable",
+                "type": "heirloom",
+                "description": "Spineless, early mature, productive. Dark green grooved straight pods, full-bodied flavor. Beautiful flowers",
+                "source_company": "Botanical Interests"
+            },
+            "direct_sow": {
+                "recommended": false,
+                "min_soil_temp_f": 70,
+                "planting_windows": {
+                    "spring": {
+                        "weeks_after_last_frost_range": [1, 2]
+                    }
+                }
+            },
+            "transplanting": {
+                "recommended": true,
+                "start_indoors_weeks_before_last_frost_range": [4, 6],
+                "min_soil_temp_f": 80,
+                "planting_windows": {
+                    "spring": {
+                        "weeks_after_last_frost_range": [1, 2]
+                    }
+                }
+            },
+            "days_to_emerge_range": [10, 15],
+            "days_to_maturity_range": [55, 55]
+        },
+
+        "red_burgundy_okra": {
+            "characteristics": {
+                "common_name": "Okra",
+                "variety_name": "Red Burgundy",
+                "scientific_name": "Abelmoschus esculentus",
+                "category": "fruiting_vegetable",
+                "type": "heirloom",
+                "description": "Stunning crimson pods, yellow flowers, prolific in heat. Most productive red variety, tender 6\" pods. AAS winner 1988",
+                "source_company": "Botanical Interests"
+            },
+            "direct_sow": {
+                "recommended": false,
+                "min_soil_temp_f": 70,
+                "planting_windows": {
+                    "spring": {
+                        "weeks_after_last_frost_range": [1, 2]
+                    }
+                }
+            },
+            "transplanting": {
+                "recommended": true,
+                "start_indoors_weeks_before_last_frost_range": [4, 6],
+                "min_soil_temp_f": 80,
+                "planting_windows": {
+                    "spring": {
+                        "weeks_after_last_frost_range": [1, 2]
+                    }
+                }
+            },
+            "days_to_emerge_range": [10, 15],
+            "days_to_maturity_range": [55, 60]
+        },
+
+        "everleaf_emerald_towers_basil": {
+            "characteristics": {
+                "common_name": "Basil",
+                "variety_name": "Everleaf Emerald Towers",
+                "scientific_name": "Ocimum basilicum",
+                "category": "herb",
+                "type": "hybrid",
+                "description": "Prolific leaf growth, deep emerald glossy green, herbal tower form. Delays flowering 12+ weeks. Annual",
+                "source_company": "Botanical Interests"
+            },
+            "direct_sow": {
+                "recommended": false,
+                "min_soil_temp_f": 60,
+                "planting_windows": {
+                    "spring": {
+                        "weeks_after_last_frost_range": [1, 2]
+                    }
+                }
+            },
+            "transplanting": {
+                "recommended": true,
+                "start_indoors_weeks_before_last_frost_range": [4, 6],
+                "min_nighttime_temp_f": 50,
+                "planting_windows": {
+                    "spring": {
+                        "weeks_after_last_frost_range": [1, 2]
+                    }
+                }
+            },
+            "days_to_emerge_range": [5, 10],
+            "days_to_maturity_range": null
+        },
+
+        "purple_petra_basil": {
+            "characteristics": {
+                "common_name": "Basil",
+                "variety_name": "Purple Petra",
+                "scientific_name": "Ocimum basilicum",
+                "category": "herb",
+                "type": "organic",
+                "description": "Mild sweet taste, perfect for pesto/pasta/salads. Pink-tinted vinegar/oil. Tomato companion. Annual",
+                "source_company": "Botanical Interests"
+            },
+            "direct_sow": {
+                "recommended": false,
+                "min_soil_temp_f": 60,
+                "planting_windows": {
+                    "spring": {
+                        "weeks_after_last_frost_range": [1, 2]
+                    }
+                }
+            },
+            "transplanting": {
+                "recommended": true,
+                "start_indoors_weeks_before_last_frost_range": [4, 6],
+                "min_nighttime_temp_f": 50,
+                "planting_windows": {
+                    "spring": {
+                        "weeks_after_last_frost_range": [1, 2]
+                    }
+                }
+            },
+            "days_to_emerge_range": [5, 10],
+            "days_to_maturity_range": null
+        },
+
+        "sweet_thai_basil": {
+            "characteristics": {
+                "common_name": "Basil Thai",
+                "variety_name": "Sweet Thai",
+                "scientific_name": "Ocimum basilicum",
+                "category": "herb",
+                "type": "organic",
+                "description": "Popular in SE Asian cuisine, holds flavor after cooking. Dark purple flowers, terrific for containers. Annual",
+                "source_company": "Botanical Interests"
+            },
+            "direct_sow": {
+                "recommended": false,
+                "min_soil_temp_f": 60,
+                "planting_windows": {
+                    "spring": {
+                        "weeks_after_last_frost_range": [1, 2]
+                    }
+                }
+            },
+            "transplanting": {
+                "recommended": true,
+                "start_indoors_weeks_before_last_frost_range": [4, 6],
+                "min_nighttime_temp_f": 50,
+                "planting_windows": {
+                    "spring": {
+                        "weeks_after_last_frost_range": [1, 2]
+                    }
+                }
+            },
+            "days_to_emerge_range": [5, 10],
+            "days_to_maturity_range": null
+        },
+
+        "thai_basil": {
+            "characteristics": {
+                "common_name": "Basil Thai",
+                "variety_name": "Thai Basil",
+                "scientific_name": "Ocimum basilicum",
+                "category": "herb",
+                "type": "organic",
+                "description": "Annual. Harvest morning when cool. Complete harvest before flowering. Cut to 4-6\" for second growth",
+                "source_company": "Sereniseed"
+            },
+            "direct_sow": {
+                "recommended": true,
+                "min_soil_temp_f": 65,
+                "planting_windows": {
+                    "spring": {
+                        "weeks_after_last_frost_range": [0, 2]
+                    }
+                }
+            },
+            "transplanting": {
+                "recommended": false,
+                "start_indoors_weeks_before_last_frost_range": [6, 6],
+                "planting_windows": {
+                    "spring": {
+                        "weeks_after_last_frost_range": [0, 2]
+                    }
+                }
+            },
+            "days_to_emerge_range": [5, 10],
+            "days_to_maturity_range": [64, 64]
         },
 
         "common_chives": {
@@ -441,11 +637,9 @@
                 "description": "Edible flowers, grows best in clumps",
                 "source_company": "Sereniseed"
             },
-
             "direct_sow": {
                 "recommended": false
             },
-
             "transplanting": {
                 "recommended": true,
                 "start_indoors_weeks_before_last_frost_range": [6, 8],
@@ -455,106 +649,37 @@
                     }
                 }
             },
-
             "days_to_emerge_range": [10, 14],
             "days_to_maturity_range": [60, 60]
         },
 
-        "english_lavender": {
+        "cilantro_coriander": {
             "characteristics": {
-                "common_name": "Lavender",
-                "variety_name": "English",
-                "scientific_name": "Lavandula angustifolia",
+                "common_name": "Cilantro",
+                "variety_name": "Coriander",
+                "scientific_name": "Coriandrum sativum",
                 "category": "herb",
                 "type": "organic",
-                "description": "Perennial in zones 5 and warmer, annual in colder climates. Trim plants back every 3 years to keep healthy and promote growth. Do not over water.",
-                "source_company": "Sereniseed"
+                "description": "Annual. Leaves=cilantro, seeds=coriander. Best 50-85°F. Succession plant weekly spring/fall. Bolts above 85°F",
+                "source_company": "Ferry-Morse"
             },
-
             "direct_sow": {
+                "recommended": true,
+                "max_temp_f": 85,
+                "planting_windows": {
+                    "spring": {
+                        "weeks_after_last_frost_range": [0, 2]
+                    },
+                    "fall": {
+                        "weeks_before_first_frost_range": [6, 8]
+                    }
+                }
+            },
+            "transplanting": {
                 "recommended": false
             },
-
-            "transplanting": {
-                "recommended": true,
-                "start_indoors_weeks_before_last_frost_range": [12, 16],
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [0, 4]
-                    }
-                }
-            },
-
-            "days_to_emerge_range": [14, 30],
-            "days_to_maturity_range": [100, 100]
-        },
-
-        "giant_italian_parsley": {
-            "characteristics": {
-                "common_name": "Parsley",
-                "variety_name": "Giant Italian",
-                "scientific_name": "Petroselinum crispum",
-                "category": "herb",
-                "type": "organic",
-                "description": "Biennial - grows leaves the 1st year, goes to flower/seed early in 2nd year. Annual plantings recommended. Keep soil moist. Grows well in garden beds and containers.",
-                "source_company": "Sereniseed"
-            },
-
-            "direct_sow": {
-                "recommended": false,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [0, 2]
-                    }
-                }
-            },
-
-            "transplanting": {
-                "recommended": true,
-                "start_indoors_weeks_before_last_frost_range": [10, 12],
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [0, 2]
-                    }
-                }
-            },
-
-            "days_to_emerge_range": [14, 14],
-            "days_to_maturity_range": [85, 85]
-        },
-
-        "broad_leaf_sage": {
-            "characteristics": {
-                "common_name": "Sage",
-                "variety_name": "Broad Leaf",
-                "scientific_name": "Salvia officinalis",
-                "category": "herb",
-                "type": "organic",
-                "description": "Perennial. Loves dry conditions, does not like humidity. Don't take more than half the plant at a time. It is best to let the plant become established before the first harvest.",
-                "source_company": "Sereniseed"
-            },
-
-            "direct_sow": {
-                "recommended": true,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
-                    }
-                }
-            },
-
-            "transplanting": {
-                "recommended": true,
-                "start_indoors_weeks_before_last_frost_range": [10, 10],
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [0, 2]
-                    }
-                }
-            },
-
             "days_to_emerge_range": [7, 21],
-            "days_to_maturity_range": [75, 75]
+            "days_to_maturity_range": [50, 70]
         },
 
         "bouquet_dill": {
@@ -564,10 +689,9 @@
                 "scientific_name": "Anethum graveolens",
                 "category": "herb",
                 "type": "organic",
-                "description": "Annual. Doesn't need to be watered much unless it's in a container. If in a container, keep in sun and water consistently. Reseed every 2 weeks into summer for a continuous supply.",
+                "description": "Annual. Low water needs except in containers. Reseed every 2 weeks for continuous supply",
                 "source_company": "Sereniseed"
             },
-
             "direct_sow": {
                 "recommended": true,
                 "planting_windows": {
@@ -576,35 +700,84 @@
                     }
                 }
             },
-
             "transplanting": {
                 "recommended": false
             },
-
             "days_to_emerge_range": [7, 21],
             "days_to_maturity_range": [60, 90]
         },
 
-        "italian_oregano": {
+        "english_lavender": {
             "characteristics": {
-                "common_name": "Oregano",
-                "variety_name": "Italian",
-                "scientific_name": "Origanum vulgare",
+                "common_name": "Lavender",
+                "variety_name": "English",
+                "scientific_name": "Lavandula angustifolia",
                 "category": "herb",
                 "type": "organic",
-                "description": "Perennial plant will spread. Water when soil is dry.",
+                "description": "Perennial zones 5+, annual colder. Trim every 3 years for health. Don't overwater",
                 "source_company": "Sereniseed"
             },
-
             "direct_sow": {
+                "recommended": false
+            },
+            "transplanting": {
                 "recommended": true,
+                "start_indoors_weeks_before_last_frost_range": [12, 16],
                 "planting_windows": {
                     "spring": {
-                        "weeks_after_last_frost_range": [2, 4]
+                        "weeks_after_last_frost_range": [0, 4]
                     }
                 }
             },
+            "days_to_emerge_range": [14, 30],
+            "days_to_maturity_range": [100, 100]
+        },
 
+        "common_mint": {
+            "characteristics": {
+                "common_name": "Mint",
+                "variety_name": "Common",
+                "scientific_name": "Mentha sp.",
+                "category": "herb",
+                "type": "heirloom",
+                "description": "Heirloom. Perennial. Versatile, refreshing for drinks, jellies, dishes, crafts, bath",
+                "source_company": "Botanical Interests"
+            },
+            "direct_sow": {
+                "recommended": true,
+                "min_soil_temp_f": 68,
+                "planting_windows": {
+                    "spring": {
+                        "weeks_after_last_frost_range": [1, 2]
+                    }
+                }
+            },
+            "transplanting": {
+                "recommended": true,
+                "start_indoors_weeks_before_last_frost_range": [6, 8],
+                "planting_windows": {
+                    "spring": {
+                        "weeks_after_last_frost_range": [1, 2]
+                    }
+                }
+            },
+            "days_to_emerge_range": [7, 14],
+            "days_to_maturity_range": null
+        },
+
+        "spearmint_mint": {
+            "characteristics": {
+                "common_name": "Mint",
+                "variety_name": "Spearmint",
+                "scientific_name": "Mentha spicata",
+                "category": "herb",
+                "type": "organic",
+                "description": "Perennial. Enhances drinks, savory dishes, meats, stews. Tiny flowers attract bees. Deer resistant",
+                "source_company": "Back to the Roots"
+            },
+            "direct_sow": {
+                "recommended": false
+            },
             "transplanting": {
                 "recommended": true,
                 "start_indoors_weeks_before_last_frost_range": [6, 8],
@@ -614,9 +787,134 @@
                     }
                 }
             },
+            "days_to_emerge_range": [7, 14],
+            "days_to_maturity_range": [90, 120]
+        },
 
+        "italian_oregano": {
+            "characteristics": {
+                "common_name": "Oregano",
+                "variety_name": "Italian",
+                "scientific_name": "Origanum vulgare",
+                "category": "herb",
+                "type": "organic",
+                "description": "Perennial, will spread. Water when dry",
+                "source_company": "Sereniseed"
+            },
+            "direct_sow": {
+                "recommended": true,
+                "planting_windows": {
+                    "spring": {
+                        "weeks_after_last_frost_range": [2, 4]
+                    }
+                }
+            },
+            "transplanting": {
+                "recommended": true,
+                "start_indoors_weeks_before_last_frost_range": [6, 8],
+                "planting_windows": {
+                    "spring": {
+                        "weeks_after_last_frost_range": [0, 2]
+                    }
+                }
+            },
             "days_to_emerge_range": [14, 14],
             "days_to_maturity_range": [85, 85]
+        },
+
+        "giant_italian_parsley": {
+            "characteristics": {
+                "common_name": "Parsley",
+                "variety_name": "Giant Italian",
+                "scientific_name": "Petroselinum crispum",
+                "category": "herb",
+                "type": "organic",
+                "description": "Biennial. Leaves 1st year, flowers/seed 2nd year. Annual plantings recommended. Keep moist",
+                "source_company": "Sereniseed"
+            },
+            "direct_sow": {
+                "recommended": false,
+                "planting_windows": {
+                    "spring": {
+                        "weeks_after_last_frost_range": [0, 2]
+                    }
+                }
+            },
+            "transplanting": {
+                "recommended": true,
+                "start_indoors_weeks_before_last_frost_range": [10, 12],
+                "planting_windows": {
+                    "spring": {
+                        "weeks_after_last_frost_range": [0, 2]
+                    }
+                }
+            },
+            "days_to_emerge_range": [14, 14],
+            "days_to_maturity_range": [85, 85]
+        },
+
+        "rosemary": {
+            "characteristics": {
+                "common_name": "Rosemary",
+                "variety_name": "Rosemary",
+                "scientific_name": "Rosmarinus officinalis",
+                "category": "herb",
+                "type": "heirloom",
+                "description": "Heirloom. Perennial zone 8+, annual elsewhere. Piney flavor for meats/veggies/bread. Lavender flowers attract pollinators. Drought tolerant. Deer resistant",
+                "source_company": "Botanical Interests"
+            },
+            "direct_sow": {
+                "recommended": false,
+                "min_soil_temp_f": 60,
+                "planting_windows": {
+                    "spring": {
+                        "weeks_after_last_frost_range": [1, 2]
+                    }
+                }
+            },
+            "transplanting": {
+                "recommended": true,
+                "start_indoors_weeks_before_last_frost_range": [10, 12],
+                "min_soil_temp_f": 65,
+                "planting_windows": {
+                    "spring": {
+                        "weeks_after_last_frost_range": [1, 2]
+                    }
+                }
+            },
+            "days_to_emerge_range": [15, 30],
+            "days_to_maturity_range": null
+        },
+
+        "broad_leaf_sage": {
+            "characteristics": {
+                "common_name": "Sage",
+                "variety_name": "Broad Leaf",
+                "scientific_name": "Salvia officinalis",
+                "category": "herb",
+                "type": "organic",
+                "description": "Perennial. Loves dry, dislikes humidity. Max 50% harvest. Let establish before first harvest",
+                "source_company": "Sereniseed"
+            },
+            "direct_sow": {
+                "recommended": true,
+                "planting_windows": {
+                    "spring": {
+                        "weeks_after_last_frost_range": [1, 2]
+                    }
+                }
+            },
+            "transplanting": {
+                "recommended": true,
+                "start_indoors_weeks_before_last_frost_range": [10, 10],
+                "planting_windows": {
+                    "spring": {
+                        "weeks_after_last_frost_range": [0, 2]
+                    }
+                }
+            },
+            "days_to_emerge_range": [7, 21],
+            "days_to_maturity_range": [75, 75]
         },
 
         "common_thyme": {
@@ -626,10 +924,9 @@
                 "scientific_name": "Thymus vulgaris",
                 "category": "herb",
                 "type": "organic",
-                "description": "Perennial. Sheer whole plant at 4\" if spindly. It will be denser in new growth.",
+                "description": "Perennial. Shear whole plant at 4\" if spindly for denser regrowth",
                 "source_company": "Sereniseed"
             },
-
             "direct_sow": {
                 "recommended": true,
                 "min_soil_temp_f": 68,
@@ -639,7 +936,6 @@
                     }
                 }
             },
-
             "transplanting": {
                 "recommended": true,
                 "start_indoors_weeks_before_last_frost_range": [8, 8],
@@ -649,81 +945,8 @@
                     }
                 }
             },
-
             "days_to_emerge_range": [10, 15],
             "days_to_maturity_range": [85, 85]
-        },
-
-        "clemson_spineless_80_okra": {
-            "characteristics": {
-                "common_name": "Okra",
-                "variety_name": "Clemson Spineless 80",
-                "scientific_name": "Abelmoschus esculentus",
-                "category": "fruiting_vegetable",
-                "type": "heirloom",
-                "description": "Spineless, early to mature and productive plants. Heat-loving plants produce dark green, grooved, straight pods with a full-bodied flavor. Related to hollyhocks, beautiful flowers make them a pretty addition to the flower garden.",
-                "source_company": "Botanical Interests"
-            },
-
-            "direct_sow": {
-                "recommended": false,
-                "min_soil_temp_f": 70,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
-                    }
-                }
-            },
-
-            "transplanting": {
-                "recommended": true,
-                "start_indoors_weeks_before_last_frost_range": [4, 6],
-                "min_soil_temp_f": 80,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
-                    }
-                }
-            },
-
-            "days_to_emerge_range": [10, 15],
-            "days_to_maturity_range": [55, 55]
-        },
-
-        "red_burgundy_okra": {
-            "characteristics": {
-                "common_name": "Okra",
-                "variety_name": "Red Burgundy",
-                "scientific_name": "Abelmoschus esculentus",
-                "category": "fruiting_vegetable",
-                "type": "heirloom",
-                "description": "Stunning color in the garden! High-quality crimson pods and yellow flowers are prolific in the heat. Most productive red variety, these plants produce tender, 6\"-long pods. Introduced in 1983, An All-America Selections winner in 1988.",
-                "source_company": "Botanical Interests"
-            },
-
-            "direct_sow": {
-                "recommended": false,
-                "min_soil_temp_f": 70,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
-                    }
-                }
-            },
-
-            "transplanting": {
-                "recommended": true,
-                "start_indoors_weeks_before_last_frost_range": [4, 6],
-                "min_soil_temp_f": 80,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
-                    }
-                }
-            },
-
-            "days_to_emerge_range": [10, 15],
-            "days_to_maturity_range": [55, 60]
         },
 
         "basella_alba_malabar_spinach": {
@@ -733,10 +956,9 @@
                 "scientific_name": "Basella alba",
                 "category": "leafy_green",
                 "type": "heirloom",
-                "description": "Vigorous, climbing Asian vine that will flourish in heat and humidity. The glossy, thick leaves look like spinach but have a mild Swiss chard-like taste. A native of India, tender herb with rambling stems that require management to keep them in shape.",
+                "description": "Vigorous climbing Asian vine, flourishes in heat/humidity. Glossy thick leaves, mild Swiss chard-like taste",
                 "source_company": "Burpee"
             },
-
             "direct_sow": {
                 "recommended": true,
                 "planting_windows": {
@@ -748,11 +970,9 @@
                     }
                 }
             },
-
             "transplanting": {
                 "recommended": false
             },
-
             "days_to_emerge_range": [7, 14],
             "days_to_maturity_range": [60, 60]
         },
@@ -764,10 +984,9 @@
                 "scientific_name": "Basella rubra",
                 "category": "leafy_green",
                 "type": "heirloom",
-                "description": "Vigorous climbing Asian vine, loves the summer and will flourish in heat and humidity. The glossy, thick leaves look like spinach but with mild Swiss Chard-like taste. Use the edible fresh leaves in salads or stir-fries.",
+                "description": "Vigorous climbing vine, loves summer heat/humidity. Glossy thick leaves, mild Swiss chard taste",
                 "source_company": "Burpee"
             },
-
             "direct_sow": {
                 "recommended": true,
                 "planting_windows": {
@@ -779,186 +998,11 @@
                     }
                 }
             },
-
             "transplanting": {
                 "recommended": false
             },
-
             "days_to_emerge_range": [7, 14],
             "days_to_maturity_range": [60, 80]
-        },
-
-        "everleaf_emerald_towers_basil": {
-            "characteristics": {
-                "common_name": "Basil",
-                "variety_name": "Everleaf Emerald Towers",
-                "scientific_name": "Ocimum basilicum",
-                "category": "herb",
-                "type": "hybrid",
-                "description": "Pretty enough to be the centerpiece of your patio flowerpot. Prolific in leaf growth; deep, emerald, glossy green leaves; and forms an herbal tower. This cultivar holds off flower production up to 12 weeks longer than other types of basil, so you don't have to worry about pinching flowers off to keep your basil producing tender leaves. Annual.",
-                "source_company": "Botanical Interests"
-            },
-
-            "direct_sow": {
-                "recommended": false,
-                "min_soil_temp_f": 60,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
-                    }
-                }
-            },
-
-            "transplanting": {
-                "recommended": true,
-                "start_indoors_weeks_before_last_frost_range": [4, 6],
-                "min_nighttime_temp_f": 50,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
-                    }
-                }
-            },
-
-            "days_to_emerge_range": [5, 10],
-            "days_to_maturity_range": null
-        },
-
-        "purple_petra_basil": {
-            "characteristics": {
-                "common_name": "Basil",
-                "variety_name": "Purple Petra",
-                "scientific_name": "Ocimum basilicum",
-                "category": "herb",
-                "type": "organic",
-                "description": "A mild, sweet taste that is perfect for those who love basil's flavor, but shy away from too much herbal spiciness. Excellent in a variety of dishes, including pesto, pasta, and salads. Also makes a lovely pink-tinted vinegar or oil. Grow it as a companion plant for your tomatoes or in other areas of the garden as an ornamental. Annual.",
-                "source_company": "Botanical Interests"
-            },
-
-            "direct_sow": {
-                "recommended": false,
-                "min_soil_temp_f": 60,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
-                    }
-                }
-            },
-
-            "transplanting": {
-                "recommended": true,
-                "start_indoors_weeks_before_last_frost_range": [4, 6],
-                "min_nighttime_temp_f": 50,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
-                    }
-                }
-            },
-
-            "days_to_emerge_range": [5, 10],
-            "days_to_maturity_range": null
-        },
-
-        "sweet_thai_basil": {
-            "characteristics": {
-                "common_name": "Basil Thai",
-                "variety_name": "Sweet Thai",
-                "scientific_name": "Ocimum basilicum",
-                "category": "herb",
-                "type": "organic",
-                "description": "Thai basil is a popular herb in Southeast Asian cuisine and is a flavorful garnish served with Vietnamese pho. It holds its flavor and texture better after cooking than other basil varieties and adds a kick to salads when sliced and eaten fresh. Sweet Thai's dark purple flowers and intoxicating scent make it a beautiful addition to the flower garden and bouquets. A terrific container variety. Annual.",
-                "source_company": "Botanical Interests"
-            },
-
-            "direct_sow": {
-                "recommended": false,
-                "min_soil_temp_f": 60,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
-                    }
-                }
-            },
-
-            "transplanting": {
-                "recommended": true,
-                "start_indoors_weeks_before_last_frost_range": [4, 6],
-                "min_nighttime_temp_f": 50,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
-                    }
-                }
-            },
-
-            "days_to_emerge_range": [5, 10],
-            "days_to_maturity_range": null
-        },
-
-        "thai_basil": {
-            "characteristics": {
-                "common_name": "Basil Thai",
-                "variety_name": "Thai Basil",
-                "scientific_name": "Ocimum basilicum",
-                "category": "herb",
-                "type": "organic",
-                "description": "Annual. Harvest leaves in the morning when temps are cooler and leaves are less likely to wilt. Full harvest should be completed before plant starts flowering. Cut entire plant to 4-6\" to promote second growth.",
-                "source_company": "Sereniseed"
-            },
-
-            "direct_sow": {
-                "recommended": true,
-                "min_soil_temp_f": 65,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [0, 2]
-                    }
-                }
-            },
-
-            "transplanting": {
-                "recommended": false,
-                "start_indoors_weeks_before_last_frost_range": [6, 6],
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [0, 2]
-                    }
-                }
-            },
-
-            "days_to_emerge_range": [5, 10],
-            "days_to_maturity_range": [64, 64]
-        },
-
-        "green_globe_artichoke": {
-            "characteristics": {
-                "common_name": "Artichoke",
-                "variety_name": "Green Globe",
-                "scientific_name": "Cynara cardunculus var. scolymus",
-                "category": "fruiting_vegetable",
-                "type": "heirloom",
-                "description": "This pretty variety of artichoke flowers in early summer. The flower buds are deep green with a light purple tint. Expect about 3-4 heads throughout the summer.",
-                "source_company": "Ferry-Morse"
-            },
-
-            "direct_sow": {
-                "recommended": false
-            },
-
-            "transplanting": {
-                "recommended": true,
-                "start_indoors_weeks_before_last_frost_range": [8, 12],
-                "max_temp_f": 50,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [0, 2]
-                    }
-                }
-            },
-
-            "days_to_emerge_range": [10, 20],
-            "days_to_maturity_range": [85, 120]
         },
 
         "long_island_improved_brussels_sprouts": {
@@ -968,10 +1012,9 @@
                 "scientific_name": "Brassica oleracea var. gemmifera",
                 "category": "leafy_green",
                 "type": "heirloom",
-                "description": "Compact plants on stalks 20 to 24 inches tall bear 50 to 100, dark-green, 1¼ to 1½ inch sprouts. The large sprouts are an excellent source of nutrition and easy to grow. Sprouts can be frozen after harvesting.",
+                "description": "Compact 20-24\" stalks, 50-100 dark-green 1¼-1½\" sprouts. Excellent nutrition, freezes well",
                 "source_company": "Ferry-Morse"
             },
-
             "direct_sow": {
                 "recommended": false,
                 "planting_windows": {
@@ -980,7 +1023,6 @@
                     }
                 }
             },
-
             "transplanting": {
                 "recommended": true,
                 "start_indoors_weeks_before_last_frost_range": [6, 8],
@@ -990,37 +1032,8 @@
                     }
                 }
             },
-
             "days_to_emerge_range": [7, 14],
             "days_to_maturity_range": [90, 100]
-        },
-
-        "red_white_russian_kale": {
-            "characteristics": {
-                "common_name": "Kale",
-                "variety_name": "Red & White Russian",
-                "scientific_name": "Brassica oleracea var. sabellica",
-                "category": "leafy_green",
-                "type": "heirloom",
-                "description": "A special blend of Red and White Russian Kale. Both have deeply seriated curly leaves. Tender, colorful specialty for salad mix and bunching. The mature plants are medium-tall and produce leaves that are tender compared to other kales. A light frost will improve the flavor.",
-                "source_company": "Ferry-Morse"
-            },
-
-            "direct_sow": {
-                "recommended": true,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [0, 2]
-                    }
-                }
-            },
-
-            "transplanting": {
-                "recommended": false
-            },
-
-            "days_to_emerge_range": [8, 12],
-            "days_to_maturity_range": [50, 60]
         },
 
         "michihili_chinese_cabbage": {
@@ -1033,11 +1046,9 @@
                 "description": "Chinese cabbage variety",
                 "source_company": "Sustainable Food Center"
             },
-
             "direct_sow": {
                 "recommended": false
             },
-
             "transplanting": {
                 "recommended": true,
                 "planting_windows": {
@@ -1051,73 +1062,61 @@
                     }
                 }
             },
-
             "days_to_emerge_range": [6, 10],
             "days_to_maturity_range": [50, 85]
         },
 
-        "detroit_dark_red_beet": {
+        "red_white_russian_kale": {
             "characteristics": {
-                "common_name": "Beet",
-                "variety_name": "Detroit Dark Red",
-                "scientific_name": "Beta vulgaris",
-                "category": "root_vegetable",
-                "type": "organic",
-                "description": "Heirloom. The standard for beets since 1892. Tender, buttery-sweet, nutritious root vegetable. The greens are tasty and packed with iron! Home-grown beets are simply the best. Tender and delicious, these 2½\"-3\" beautiful, deep crimson beets do not get woody as do smaller varieties if allowed to grow large. Perfect for pickling, roasting, and even raw in salads!",
-                "source_company": "Botanical Interests"
+                "common_name": "Kale",
+                "variety_name": "Red & White Russian",
+                "scientific_name": "Brassica oleracea var. sabellica",
+                "category": "leafy_green",
+                "type": "heirloom",
+                "description": "Blend of Red and White Russian. Deeply seriated curly leaves, tender for salad/bunching. Frost improves flavor",
+                "source_company": "Ferry-Morse"
             },
-
             "direct_sow": {
                 "recommended": true,
-                "min_soil_temp_f": 45,
                 "planting_windows": {
                     "spring": {
-                        "weeks_before_last_frost_range": [2, 4]
-                    },
-                    "summer": {
-                        "weeks_before_first_frost_range": [6, 8]
+                        "weeks_after_last_frost_range": [0, 2]
                     }
                 }
             },
-
             "transplanting": {
                 "recommended": false
             },
-
-            "days_to_emerge_range": [5, 21],
-            "days_to_maturity_range": [60, 60]
+            "days_to_emerge_range": [8, 12],
+            "days_to_maturity_range": [50, 60]
         },
 
-        "sugar_daddy_snap_pea": {
+        "black_seeded_simpson_lettuce": {
             "characteristics": {
-                "common_name": "Pea Snap",
-                "variety_name": "Sugar Daddy",
-                "scientific_name": "Pisum sativum",
-                "category": "legume",
-                "type": "heirloom",
-                "description": "Sugar Daddy peas were bred by Dr. Calvin Lamborn who developed the first edible-podded snap pea, Sugar Snap. However, Sugar Daddy has big improvements—stringless pods, shorter vines, and improved disease resistance. The short plants reach only 24\"-30\" tall and don't need support, but a short fence or trellis will make it easier to find and harvest the crunchy peas. Serve fresh or add to stir-fries and soups, or steam for a delicious vegetable. Resistant to powdery mildew and tolerant to bean leaf roll virus.",
-                "source_company": "Botanical Interests"
+                "common_name": "Lettuce",
+                "variety_name": "Black Seeded Simpson",
+                "scientific_name": "Lactuca sativa",
+                "category": "leafy_green",
+                "type": "organic",
+                "description": "Crisp loose heads, broad light-green frilled crumpled leaves, delicate flavor",
+                "source_company": "Burpee"
             },
-
             "direct_sow": {
                 "recommended": true,
-                "min_soil_temp_f": 40,
                 "planting_windows": {
                     "spring": {
-                        "weeks_before_last_frost_range": [4, 6]
+                        "weeks_before_last_frost_range": [4, 2]
                     },
                     "fall": {
-                        "weeks_before_first_frost_range": [10, 12]
+                        "weeks_before_first_frost_range": [10, 8]
                     }
                 }
             },
-
             "transplanting": {
                 "recommended": false
             },
-
-            "days_to_emerge_range": [5, 10],
-            "days_to_maturity_range": [62, 75]
+            "days_to_emerge_range": [7, 10],
+            "days_to_maturity_range": [45, 45]
         },
 
         "thank_you_lettuce_mesclun": {
@@ -1127,10 +1126,9 @@
                 "scientific_name": "Lactuca sativa",
                 "category": "leafy_green",
                 "type": "mix",
-                "description": "Custom mesclun blend to create fresh and beautiful salads. Not required for baby greens thinning.",
+                "description": "Custom mesclun blend for fresh beautiful salads. No thinning required for baby greens",
                 "source_company": "Botanical Interests"
             },
-
             "direct_sow": {
                 "recommended": true,
                 "min_soil_temp_f": 40,
@@ -1143,210 +1141,11 @@
                     }
                 }
             },
-
             "transplanting": {
                 "recommended": false
             },
-
             "days_to_emerge_range": [5, 14],
             "days_to_maturity_range": [20, 45]
-        },
-
-        "spearmint_mint": {
-            "characteristics": {
-                "common_name": "Mint",
-                "variety_name": "Spearmint",
-                "scientific_name": "Mentha spicata",
-                "category": "herb",
-                "type": "organic",
-                "description": "Perennial. The aroma of mint will make you close your eyes as your thoughts drift to a summer day. Mint not only enhances iced tea and mixed drinks, it is also a wonderful surprise flavor in savory dishes, including meats, stews, and vegetable fritters. Tiny flowers are loved by bees. Deer resistant.",
-                "source_company": "Back to the Roots"
-            },
-
-            "direct_sow": {
-                "recommended": false
-            },
-
-            "transplanting": {
-                "recommended": true,
-                "start_indoors_weeks_before_last_frost_range": [6, 8],
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [0, 2]
-                    }
-                }
-            },
-
-            "days_to_emerge_range": [7, 14],
-            "days_to_maturity_range": [90, 120]
-        },
-
-        "common_mint": {
-            "characteristics": {
-                "common_name": "Mint",
-                "variety_name": "Common",
-                "scientific_name": "Mentha sp.",
-                "category": "herb",
-                "type": "heirloom",
-                "description": "Heirloom. Perennial. A versatile herb, mint has a refreshing quality that enlivens iced drinks, jellies, and hot dishes, as well as crafts and bath water!",
-                "source_company": "Botanical Interests"
-            },
-
-            "direct_sow": {
-                "recommended": true,
-                "min_soil_temp_f": 68,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
-                    }
-                }
-            },
-
-            "transplanting": {
-                "recommended": true,
-                "start_indoors_weeks_before_last_frost_range": [6, 8],
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
-                    }
-                }
-            },
-
-            "days_to_emerge_range": [7, 14],
-            "days_to_maturity_range": null
-        },
-
-        "black_seeded_simpson_lettuce": {
-            "characteristics": {
-                "common_name": "Lettuce",
-                "variety_name": "Black Seeded Simpson",
-                "scientific_name": "Lactuca sativa",
-                "category": "leafy_green",
-                "type": "organic",
-                "description": "Crisp textured loose heads have broad, light-green, frilled and crumpled leaves with a delicate flavor.",
-                "source_company": "Burpee"
-            },
-
-        "direct_sow": {
-            "recommended": true,
-            "planting_windows": {
-                "spring": {
-                    "weeks_before_last_frost_range": [4, 2]
-                },
-                "fall": {
-                    "weeks_before_first_frost_range": [10, 8]
-                }
-            }
-        },
-
-            "transplanting": {
-                "recommended": false
-            },
-
-            "days_to_emerge_range": [7, 10],
-            "days_to_maturity_range": [45, 45]
-        },
-
-        "watercress": {
-            "characteristics": {
-                "common_name": "Watercress",
-                "variety_name": "Watercress",
-                "scientific_name": "Nasturtium officinale",
-                "category": "leafy_green",
-                "type": "organic",
-                "description": "Heirloom. Perennial. With a peppery and pungent flavor, this ancient plant is popular around the world for its nutritional and medicinal value. High in vitamins A, C, and K, as well as providing potassium and calcium, watercress has been studied for its antioxidant properties. At home along streams and lakes, watercress can also be grown in moist, partly shady gardens and indoors in containers. Add snappy, peppery flavor to salads, omelets, and potato salads. Classic ingredient in finger sandwiches served at an English tea.",
-                "source_company": "Botanical Interests"
-            },
-
-            "direct_sow": {
-                "recommended": true,
-                "min_soil_temp_f": 50,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_before_last_frost_range": [2, 4]
-                    }
-                }
-            },
-
-            "transplanting": {
-                "recommended": true,
-                "start_indoors_weeks_before_last_frost_range": [4, 6],
-                "planting_windows": {
-                    "spring": {
-                        "weeks_before_last_frost_range": [2, 4]
-                    }
-                }
-            },
-
-            "days_to_emerge_range": [5, 15],
-            "days_to_maturity_range": null
-        },
-
-        "rosemary": {
-            "characteristics": {
-                "common_name": "Rosemary",
-                "variety_name": "Rosemary",
-                "scientific_name": "Rosmarinus officinalis",
-                "category": "herb",
-                "type": "heirloom",
-                "description": "Heirloom. Perennial (tender). Fall in love with the wonderful aroma of this versatile herb. It complements meats and vegetables, brings its unique, piney flavor to breads, and blends well with other herbs. A beautiful ornamental, it grows well in containers indoors or outside, and pollinators love the lavender flowers. Perennial in USDA zone 8 and warmer; otherwise grown as an annual or indoors. Fairly drought tolerant once established. Deer resistant. Wonderful flavor and aroma! Perk up lamb, fish and poultry, potatoes, soups, and bread! An excellent container herb for indoors.",
-                "source_company": "Botanical Interests"
-            },
-
-            "direct_sow": {
-                "recommended": false,
-                "min_soil_temp_f": 60,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
-                    }
-                }
-            },
-
-            "transplanting": {
-                "recommended": true,
-                "start_indoors_weeks_before_last_frost_range": [10, 12],
-                "min_soil_temp_f": 65,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
-                    }
-                }
-            },
-
-            "days_to_emerge_range": [15, 30],
-            "days_to_maturity_range": null
-        },
-
-        "tokyo_long_white_bunching_onion": {
-            "characteristics": {
-                "common_name": "Onion",
-                "variety_name": "Tokyo Long White (Bunching)",
-                "scientific_name": "Allium fistulosum",
-                "category": "allium",
-                "type": "heirloom",
-                "description": "Heirloom. High yielding 12\" bunching onions have a sweet, mild flavor. Also called scallions.",
-                "source_company": "Burpee"
-            },
-
-            "direct_sow": {
-                "recommended": true,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [0, 2]
-                    },
-                    "fall": {
-                        "weeks_before_first_frost_range": [8, 12]
-                    }
-                }
-            },
-
-            "transplanting": {
-                "recommended": false
-            },
-
-            "days_to_emerge_range": [7, 14],
-            "days_to_maturity_range": [65, 70]
         },
 
         "mustard_greens": {
@@ -1356,10 +1155,9 @@
                 "scientific_name": "Brassica juncea",
                 "category": "leafy_green",
                 "type": "heirloom",
-                "description": "Fast-growing leafy greens with a peppery, spicy flavor. Young leaves are mild and excellent for salads, while mature leaves are best cooked. Cold hardy and heat tolerant.",
+                "description": "Fast-growing, peppery spicy flavor. Young leaves mild for salads, mature best cooked. Cold hardy, heat tolerant",
                 "source_company": null
             },
-
             "direct_sow": {
                 "recommended": true,
                 "min_soil_temp_f": 45,
@@ -1372,80 +1170,129 @@
                     }
                 }
             },
-
             "transplanting": {
                 "recommended": false
             },
-
             "days_to_emerge_range": [5, 10],
             "days_to_maturity_range": [35, 45]
         },
 
-        "cilantro_coriander": {
+        "watercress": {
             "characteristics": {
-                "common_name": "Cilantro",
-                "variety_name": "Coriander",
-                "scientific_name": "Coriandrum sativum",
-                "category": "herb",
+                "common_name": "Watercress",
+                "variety_name": "Watercress",
+                "scientific_name": "Nasturtium officinale",
+                "category": "leafy_green",
                 "type": "organic",
-                "description": "Annual Herb. The plant is Cilantro while the seeds are Coriander. The leaves have a distinctive flavor and are used as a garnish in salads and soups. The seed is used in meat and seafood dishes, as well as a condiment for flavoring bread, cookies and cakes. Cool season crop that does best during 50 to 85 degrees. Succession plant weekly during spring and fall. Tolerates a frost or two. Bolts at temperatures above 85 degrees.",
-                "source_company": "Ferry-Morse"
-            },
-
-            "direct_sow": {
-                "recommended": true,
-                "max_temp_f": 85,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [0, 2]
-                    },
-                    "fall": {
-                        "weeks_before_first_frost_range": [6, 8]
-                    }
-                }
-            },
-
-            "transplanting": {
-                "recommended": false
-            },
-
-            "days_to_emerge_range": [7, 21],
-            "days_to_maturity_range": [50, 70]
-        },
-
-        "crackerjack_blend_marigold": {
-            "characteristics": {
-                "common_name": "Marigold African",
-                "variety_name": "Crackerjack Blend",
-                "scientific_name": "Tagetes erecta",
-                "category": "flower",
-                "type": "heirloom",
-                "description": "Annual. If you want a large, majestic marigold, Crackerjack is a superior blend with a mounding form, consistent height, and sturdy flower stalks. The 4\" blooms in tangerine orange, rich gold, and lemony yellow will brighten up your flower bed, path edges, and large container plantings. They make radiant, long-lasting cut flowers and are so easy to grow from seed. For a dazzling contrast, plant next to blue or dark purple flowers. Be prepared for butterflies to visit! Fairly drought tolerant. Deer and rabbit resistant. Blooms summer to frost, 24\"-36\" tall.",
+                "description": "Heirloom. Perennial. Peppery pungent, high in vitamins A/C/K, potassium, calcium. Antioxidant properties. Grows in moist shady areas or containers",
                 "source_company": "Botanical Interests"
             },
-
             "direct_sow": {
-                "recommended": false,
-                "min_soil_temp_f": 70,
+                "recommended": true,
+                "min_soil_temp_f": 50,
                 "planting_windows": {
                     "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
+                        "weeks_before_last_frost_range": [2, 4]
                     }
                 }
             },
-
             "transplanting": {
                 "recommended": true,
                 "start_indoors_weeks_before_last_frost_range": [4, 6],
                 "planting_windows": {
                     "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
+                        "weeks_before_last_frost_range": [2, 4]
                     }
                 }
             },
-
-            "days_to_emerge_range": [5, 14],
+            "days_to_emerge_range": [5, 15],
             "days_to_maturity_range": null
+        },
+
+        "detroit_dark_red_beet": {
+            "characteristics": {
+                "common_name": "Beet",
+                "variety_name": "Detroit Dark Red",
+                "scientific_name": "Beta vulgaris",
+                "category": "root_vegetable",
+                "type": "organic",
+                "description": "Heirloom since 1892. Tender buttery-sweet 2½-3\" deep crimson beets, won't get woody when large. Greens tasty, iron-rich. Perfect for pickling/roasting/raw",
+                "source_company": "Botanical Interests"
+            },
+            "direct_sow": {
+                "recommended": true,
+                "min_soil_temp_f": 45,
+                "planting_windows": {
+                    "spring": {
+                        "weeks_before_last_frost_range": [2, 4]
+                    },
+                    "summer": {
+                        "weeks_before_first_frost_range": [6, 8]
+                    }
+                }
+            },
+            "transplanting": {
+                "recommended": false
+            },
+            "days_to_emerge_range": [5, 21],
+            "days_to_maturity_range": [60, 60]
+        },
+
+        "sugar_daddy_snap_pea": {
+            "characteristics": {
+                "common_name": "Pea Snap",
+                "variety_name": "Sugar Daddy",
+                "scientific_name": "Pisum sativum",
+                "category": "legume",
+                "type": "heirloom",
+                "description": "Bred by Sugar Snap creator. Stringless pods, short 24-30\" vines, improved disease resistance. No support needed but helps harvest. Powdery mildew resistant",
+                "source_company": "Botanical Interests"
+            },
+            "direct_sow": {
+                "recommended": true,
+                "min_soil_temp_f": 40,
+                "planting_windows": {
+                    "spring": {
+                        "weeks_before_last_frost_range": [4, 6]
+                    },
+                    "fall": {
+                        "weeks_before_first_frost_range": [10, 12]
+                    }
+                }
+            },
+            "transplanting": {
+                "recommended": false
+            },
+            "days_to_emerge_range": [5, 10],
+            "days_to_maturity_range": [62, 75]
+        },
+
+        "tokyo_long_white_bunching_onion": {
+            "characteristics": {
+                "common_name": "Onion",
+                "variety_name": "Tokyo Long White (Bunching)",
+                "scientific_name": "Allium fistulosum",
+                "category": "allium",
+                "type": "heirloom",
+                "description": "Heirloom. High yielding 12\" bunching onions (scallions), sweet mild flavor",
+                "source_company": "Burpee"
+            },
+            "direct_sow": {
+                "recommended": true,
+                "planting_windows": {
+                    "spring": {
+                        "weeks_after_last_frost_range": [0, 2]
+                    },
+                    "fall": {
+                        "weeks_before_first_frost_range": [8, 12]
+                    }
+                }
+            },
+            "transplanting": {
+                "recommended": false
+            },
+            "days_to_emerge_range": [7, 14],
+            "days_to_maturity_range": [65, 70]
         },
 
         "cyanus_double_mixed_colors_bachelor_button": {
@@ -1455,10 +1302,9 @@
                 "scientific_name": "Centaurea cyanus",
                 "category": "flower",
                 "type": "heirloom",
-                "description": "Annual. Attractive shades of blue, pink, ruby-red and white. Bright flowers are larger than common Bachelor Buttons. Bloom prolifically with minimal care.",
+                "description": "Annual. Blue/pink/ruby-red/white shades. Larger than common Bachelor Buttons. Prolific, minimal care",
                 "source_company": "Ferry-Morse"
             },
-
             "direct_sow": {
                 "recommended": true,
                 "planting_windows": {
@@ -1467,81 +1313,11 @@
                     }
                 }
             },
-
             "transplanting": {
                 "recommended": false
             },
-
             "days_to_emerge_range": [10, 15],
             "days_to_maturity_range": [42, 49]
-        },
-
-        "giant_cactus_flowered_mix_colors_zinnia": {
-            "characteristics": {
-                "common_name": "Zinnia",
-                "variety_name": "Giant Cactus Flowered Mix Colors",
-                "scientific_name": "Zinnia elegans",
-                "category": "flower",
-                "type": "heirloom",
-                "description": "Annual. Giant, cactus flowered blooms in a blend of brilliant colors. Quilled, gracefully curved petals in multiple rows make this Zinnia quite distinctive.",
-                "source_company": "Ferry-Morse"
-            },
-
-            "direct_sow": {
-                "recommended": true,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [0, 2]
-                    }
-                }
-            },
-
-            "transplanting": {
-                "recommended": true,
-                "start_indoors_weeks_before_last_frost_range": [4, 6],
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [0, 2]
-                    }
-                }
-            },
-
-            "days_to_emerge_range": [5, 10],
-            "days_to_maturity_range": [35, 60]
-        },
-
-        "chinese_cynoglossum_forget_me_not": {
-            "characteristics": {
-                "common_name": "Forget-Me-Not",
-                "variety_name": "Chinese (Cynoglossum)",
-                "scientific_name": "Cynoglossum amabile",
-                "category": "flower",
-                "type": "heirloom",
-                "description": "Annual. Lacy sprays of tiny blossoms provide splashes of clear, celestial blue in the garden. Compact plants look delicate, but are tough and versatile. Attracts bees.",
-                "source_company": "Ferry-Morse"
-            },
-
-            "direct_sow": {
-                "recommended": true,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [0, 2]
-                    }
-                }
-            },
-
-            "transplanting": {
-                "recommended": true,
-                "start_indoors_weeks_before_last_frost_range": [6, 8],
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [0, 2]
-                    }
-                }
-            },
-
-            "days_to_emerge_range": [8, 10],
-            "days_to_maturity_range": [40, 50]
         },
 
         "chief_red_flame_celosia": {
@@ -1551,10 +1327,9 @@
                 "scientific_name": "Celosia argentea var. cristata",
                 "category": "flower",
                 "type": "organic",
-                "description": "Annual. 'Red Flame's' compact, uniform, \"cockscomb\" flower heads are made up of hundreds of tiny flowers arranged in tight waves, and are very long lasting in the garden or a vase. Like moths to a flame, pollinators are called in to its prolific blooms from summer until frost, and songbirds will follow, enjoying the seeds in fall and winter. Heat and fairly drought tolerant. Grown as an annual, although perennial in USDA zones 10 and warmer. Blooms summer to frost, 16\"-30\" tall. Set your garden and bouquets aflame with this intensely red cockscomb.",
+                "description": "Annual. Compact uniform cockscomb, hundreds of tiny flowers in tight waves. Long-lasting, attracts pollinators. Heat/drought tolerant. 16-30\" tall",
                 "source_company": "Botanical Interests"
             },
-
             "direct_sow": {
                 "recommended": true,
                 "min_soil_temp_f": 60,
@@ -1564,7 +1339,6 @@
                     }
                 }
             },
-
             "transplanting": {
                 "recommended": true,
                 "start_indoors_weeks_before_last_frost_range": [6, 8],
@@ -1574,7 +1348,6 @@
                     }
                 }
             },
-
             "days_to_emerge_range": [7, 14],
             "days_to_maturity_range": null
         },
@@ -1586,10 +1359,9 @@
                 "scientific_name": "Plectranthus scutellarioides",
                 "category": "flower",
                 "type": "heirloom",
-                "description": "Annual. Coleus is an excellent houseplant that will add color to those dreary winter days. In the garden, its white, bronze, gold, copper, yellow, pink, red, and purple foliage will brighten up shady areas that typically are hard to grow flowers in! Also great for containers and planters. Grown as an annual, although perennial in USDA zones 11 and warmer. Deer resistant. Dramatic, large, colorful foliage for shaded areas! Wide range of fabulously bright tropical colors. Excellent houseplant. 12\"-36\" tall, 6\"-18\" wide.",
+                "description": "Annual. Colorful foliage: white/bronze/gold/copper/yellow/pink/red/purple. Excellent houseplant. Brightens shady areas. Deer resistant. 12-36\" tall",
                 "source_company": "Botanical Interests"
             },
-
             "direct_sow": {
                 "recommended": true,
                 "planting_windows": {
@@ -1598,7 +1370,6 @@
                     }
                 }
             },
-
             "transplanting": {
                 "recommended": true,
                 "start_indoors_weeks_before_last_frost_range": [6, 8],
@@ -1609,22 +1380,20 @@
                     }
                 }
             },
-
             "days_to_emerge_range": [15, 20],
             "days_to_maturity_range": null
         },
 
-        "mixed_colors_foxglove": {
+        "chinese_cynoglossum_forget_me_not": {
             "characteristics": {
-                "common_name": "Foxglove",
-                "variety_name": "Mixed Colors",
-                "scientific_name": "Digitalis purpurea",
+                "common_name": "Forget-Me-Not",
+                "variety_name": "Chinese (Cynoglossum)",
+                "scientific_name": "Cynoglossum amabile",
                 "category": "flower",
                 "type": "heirloom",
-                "description": "Perennial. Leafy spikes of bell-shaped blooms. Colors range from white and shell-pink to deep-rose, with crimson, maroon and chocolate markings. Do not ingest seeds. Blooms every year.",
+                "description": "Annual. Lacy sprays of tiny celestial blue blossoms. Compact tough versatile plants. Attracts bees",
                 "source_company": "Ferry-Morse"
             },
-
             "direct_sow": {
                 "recommended": true,
                 "planting_windows": {
@@ -1633,7 +1402,6 @@
                     }
                 }
             },
-
             "transplanting": {
                 "recommended": true,
                 "start_indoors_weeks_before_last_frost_range": [6, 8],
@@ -1643,10 +1411,102 @@
                     }
                 }
             },
+            "days_to_emerge_range": [8, 10],
+            "days_to_maturity_range": [40, 50]
+        },
 
+        "mixed_colors_foxglove": {
+            "characteristics": {
+                "common_name": "Foxglove",
+                "variety_name": "Mixed Colors",
+                "scientific_name": "Digitalis purpurea",
+                "category": "flower",
+                "type": "heirloom",
+                "description": "Perennial. Leafy spikes of bell-shaped blooms. White/shell-pink/deep-rose with crimson/maroon/chocolate markings. Do not ingest seeds",
+                "source_company": "Ferry-Morse"
+            },
+            "direct_sow": {
+                "recommended": true,
+                "planting_windows": {
+                    "spring": {
+                        "weeks_after_last_frost_range": [0, 2]
+                    }
+                }
+            },
+            "transplanting": {
+                "recommended": true,
+                "start_indoors_weeks_before_last_frost_range": [6, 8],
+                "planting_windows": {
+                    "spring": {
+                        "weeks_after_last_frost_range": [0, 2]
+                    }
+                }
+            },
             "days_to_emerge_range": [7, 14],
             "days_to_maturity_range": [120, 130]
-        }
+        },
 
+        "crackerjack_blend_marigold": {
+            "characteristics": {
+                "common_name": "Marigold African",
+                "variety_name": "Crackerjack Blend",
+                "scientific_name": "Tagetes erecta",
+                "category": "flower",
+                "type": "heirloom",
+                "description": "Annual. Large majestic 4\" blooms in tangerine/gold/yellow. Mounding form, consistent height, sturdy stalks. Drought tolerant. Deer/rabbit resistant. 24-36\" tall",
+                "source_company": "Botanical Interests"
+            },
+            "direct_sow": {
+                "recommended": false,
+                "min_soil_temp_f": 70,
+                "planting_windows": {
+                    "spring": {
+                        "weeks_after_last_frost_range": [1, 2]
+                    }
+                }
+            },
+            "transplanting": {
+                "recommended": true,
+                "start_indoors_weeks_before_last_frost_range": [4, 6],
+                "planting_windows": {
+                    "spring": {
+                        "weeks_after_last_frost_range": [1, 2]
+                    }
+                }
+            },
+            "days_to_emerge_range": [5, 14],
+            "days_to_maturity_range": null
+        },
+
+        "giant_cactus_flowered_mix_colors_zinnia": {
+            "characteristics": {
+                "common_name": "Zinnia",
+                "variety_name": "Giant Cactus Flowered Mix Colors",
+                "scientific_name": "Zinnia elegans",
+                "category": "flower",
+                "type": "heirloom",
+                "description": "Annual. Giant cactus flowered, brilliant colors. Quilled gracefully curved petals in multiple rows",
+                "source_company": "Ferry-Morse"
+            },
+            "direct_sow": {
+                "recommended": true,
+                "planting_windows": {
+                    "spring": {
+                        "weeks_after_last_frost_range": [0, 2]
+                    }
+                }
+            },
+            "transplanting": {
+                "recommended": true,
+                "start_indoors_weeks_before_last_frost_range": [4, 6],
+                "planting_windows": {
+                    "spring": {
+                        "weeks_after_last_frost_range": [0, 2]
+                    }
+                }
+            },
+            "days_to_emerge_range": [5, 10],
+            "days_to_maturity_range": [35, 60]
+        }
     }
 }
