@@ -262,25 +262,28 @@
                 "description": "30\" plants, 4-5\" medium-hot, mature green to dark red",
                 "source_company": "Burpee"
             },
+            "days_to_emerge_range": [10, 21],
             "direct_sow": {
                 "recommended": false
             },
             "transplanting": {
                 "recommended": true,
-                "start_indoors_weeks_before_transplant_range": [8, 8],
-                "min_air_temp_f": 70,
+                "start_indoors_weeks_before_transplant_range": [8, 10],
+                "min_air_temp_f": 65,
                 "min_nighttime_temp_f": 55,
                 "planting_windows": {
                     "spring": {
-                        "weeks_after_last_frost_range": [-2, 8]
+                        "weeks_after_last_frost_range": [1, 8]
                     },
                     "fall": {
-                        "weeks_before_first_frost_range": [14, 10]
+                        "weeks_before_first_frost_range": [12, 16]
                     }
-                }
+                },
+                "days_to_maturity_from_transplant_range": [69, 69]
             },
-            "days_to_emerge_range": [10, 21],
-            "days_to_maturity_from_transplant_range": [69, 69]
+            "successive_sowing": {
+                "recommendation": "not_recommended"
+            }
         },
 
         "candy_cane_chocolate_cherry_pepper": {
@@ -293,17 +296,9 @@
                 "description": "1.5\" sweet with candy cane stripes, variegated foliage, ripen green/white to chocolate red/cream",
                 "source_company": "Botanical Interests"
             },
+            "days_to_emerge_range": [10, 25],
             "direct_sow": {
-                "recommended": false,
-                "min_soil_temp_f": 70,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [2, 4]
-                    },
-                    "summer": {
-                        "weeks_before_first_frost_range": [17, 13]
-                    }
-                }
+                "recommended": false
             },
             "transplanting": {
                 "recommended": true,
@@ -314,13 +309,15 @@
                     "spring": {
                         "weeks_after_last_frost_range": [2, 4]
                     },
-                    "summer": {
-                        "weeks_before_first_frost_range": [15, 11]
+                    "fall": {
+                        "weeks_before_first_frost_range": [12, 16]
                     }
-                }
+                },
+                "days_to_maturity_from_transplant_range": [70, 75]
             },
-            "days_to_emerge_range": [10, 25],
-            "days_to_maturity_from_transplant_range": [70, 75]
+            "successive_sowing": {
+                "recommendation": "not_recommended"
+            }
         },
 
         "shishito_pepper": {
@@ -333,17 +330,9 @@
                 "description": "2-4\" slender, citrusy slightly smoky, 50-200 Scoville (mildly hot), highly productive",
                 "source_company": "Botanical Interests"
             },
+            "days_to_emerge_range": [10, 25],
             "direct_sow": {
-                "recommended": false,
-                "min_soil_temp_f": 70,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [2, 4]
-                    },
-                    "summer": {
-                        "weeks_before_first_frost_range": [15, 11]
-                    }
-                }
+                "recommended": false
             },
             "transplanting": {
                 "recommended": true,
@@ -354,13 +343,15 @@
                     "spring": {
                         "weeks_after_last_frost_range": [2, 4]
                     },
-                    "summer": {
-                        "weeks_before_first_frost_range": [13, 9]
+                    "fall": {
+                        "weeks_before_first_frost_range": [12, 16]
                     }
-                }
+                },
+                "days_to_maturity_from_transplant_range": [60, 75]
             },
-            "days_to_emerge_range": [10, 25],
-            "days_to_maturity_from_transplant_range": [60, 75]
+            "successive_sowing": {
+                "recommendation": "not_recommended"
+            }
         },
 
         "thai_hot_pepper": {
@@ -373,17 +364,9 @@
                 "description": "Compact 8\" plants, upright 1.5-3\" red, 50,000-100,000 Scoville units",
                 "source_company": "Botanical Interests"
             },
+            "days_to_emerge_range": [10, 25],
             "direct_sow": {
-                "recommended": false,
-                "min_soil_temp_f": 70,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [2, 4]
-                    },
-                    "summer": {
-                        "weeks_before_first_frost_range": [18, 14]
-                    }
-                }
+                "recommended": false
             },
             "transplanting": {
                 "recommended": true,
@@ -394,13 +377,15 @@
                     "spring": {
                         "weeks_after_last_frost_range": [2, 4]
                     },
-                    "summer": {
-                        "weeks_before_first_frost_range": [16, 12]
+                    "fall": {
+                        "weeks_before_first_frost_range": [12, 16]
                     }
-                }
+                },
+                "days_to_maturity_from_transplant_range": [90, 90]
             },
-            "days_to_emerge_range": [10, 25],
-            "days_to_maturity_from_transplant_range": [90, 90]
+            "successive_sowing": {
+                "recommendation": "not_recommended"
+            }
         },
 
         "green_globe_artichoke": {
@@ -409,25 +394,29 @@
                 "variety_name": "Green Globe",
                 "scientific_name": "Cynara cardunculus var. scolymus",
                 "category": "fruiting_vegetable",
-                "type": "heirloom",
+                "type": "open_pollinated",
                 "description": "Flowers early summer. Deep green buds with light purple tint. 3-4 heads per summer",
                 "source_company": "Ferry-Morse"
             },
+            "days_to_emerge_range": [10, 20],
             "direct_sow": {
                 "recommended": false
             },
             "transplanting": {
                 "recommended": true,
                 "start_indoors_weeks_before_last_frost_range": [8, 12],
-                "max_temp_f": 50,
+                "vernalization_required": true,
+                "vernalization_days_under_50f": [10, 12],
                 "planting_windows": {
                     "spring": {
                         "weeks_after_last_frost_range": [0, 2]
                     }
-                }
+                },
+                "days_to_maturity_from_transplant_range": [85, 120]
             },
-            "days_to_emerge_range": [10, 20],
-            "days_to_maturity_range": [85, 120]
+            "successive_sowing": {
+                "recommendation": "not_recommended"
+            }
         },
 
         "clemson_spineless_80_okra": {
@@ -436,31 +425,31 @@
                 "variety_name": "Clemson Spineless 80",
                 "scientific_name": "Abelmoschus esculentus",
                 "category": "fruiting_vegetable",
-                "type": "heirloom",
+                "type": "open_pollinated",
                 "description": "Spineless, early mature, productive. Dark green grooved straight pods, full-bodied flavor. Beautiful flowers",
                 "source_company": "Botanical Interests"
             },
+            "days_to_emerge_range": [10, 15],
             "direct_sow": {
-                "recommended": false,
-                "min_soil_temp_f": 70,
+                "recommended": true,
+                "min_soil_temp_f": 80,
+                "seed_soak_hours": [12, 24],
                 "planting_windows": {
                     "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
+                        "weeks_after_last_frost_range": [2, 6]
+                    },
+                    "fall": {
+                        "weeks_before_first_frost_range": [12, 16]
                     }
-                }
+                },
+                "days_to_maturity_from_seed_range": [55, 55]
             },
             "transplanting": {
-                "recommended": true,
-                "start_indoors_weeks_before_last_frost_range": [4, 6],
-                "min_soil_temp_f": 80,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
-                    }
-                }
+                "recommended": false
             },
-            "days_to_emerge_range": [10, 15],
-            "days_to_maturity_range": [55, 55]
+            "successive_sowing": {
+                "recommendation": "not_recommended"
+            }
         },
 
         "red_burgundy_okra": {
@@ -469,31 +458,31 @@
                 "variety_name": "Red Burgundy",
                 "scientific_name": "Abelmoschus esculentus",
                 "category": "fruiting_vegetable",
-                "type": "heirloom",
+                "type": "open_pollinated",
                 "description": "Stunning crimson pods, yellow flowers, prolific in heat. Most productive red variety, tender 6\" pods. AAS winner 1988",
                 "source_company": "Botanical Interests"
             },
+            "days_to_emerge_range": [10, 15],
             "direct_sow": {
-                "recommended": false,
-                "min_soil_temp_f": 70,
+                "recommended": true,
+                "min_soil_temp_f": 80,
+                "seed_soak_hours": [12, 24],
                 "planting_windows": {
                     "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
+                        "weeks_after_last_frost_range": [2, 6]
+                    },
+                    "fall": {
+                        "weeks_before_first_frost_range": [12, 16]
                     }
-                }
+                },
+                "days_to_maturity_from_seed_range": [55, 60]
             },
             "transplanting": {
-                "recommended": true,
-                "start_indoors_weeks_before_last_frost_range": [4, 6],
-                "min_soil_temp_f": 80,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
-                    }
-                }
+                "recommended": false
             },
-            "days_to_emerge_range": [10, 15],
-            "days_to_maturity_range": [55, 60]
+            "successive_sowing": {
+                "recommendation": "not_recommended"
+            }
         },
 
         "everleaf_emerald_towers_basil": {
@@ -502,18 +491,13 @@
                 "variety_name": "Everleaf Emerald Towers",
                 "scientific_name": "Ocimum basilicum",
                 "category": "herb",
-                "type": "hybrid",
+                "type": "open_pollinated",
                 "description": "Prolific leaf growth, deep emerald glossy green, herbal tower form. Delays flowering 12+ weeks. Annual",
                 "source_company": "Botanical Interests"
             },
+            "days_to_emerge_range": [5, 10],
             "direct_sow": {
-                "recommended": false,
-                "min_soil_temp_f": 60,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
-                    }
-                }
+                "recommended":false
             },
             "transplanting": {
                 "recommended": true,
@@ -525,8 +509,10 @@
                     }
                 }
             },
-            "days_to_emerge_range": [5, 10],
-            "days_to_maturity_range": null
+            "successive_sowing": {
+                "recommendation": "highly_recommended",
+                "interval_weeks": [3, 3]
+            }
         },
 
         "purple_petra_basil": {
@@ -539,14 +525,9 @@
                 "description": "Mild sweet taste, perfect for pesto/pasta/salads. Pink-tinted vinegar/oil. Tomato companion. Annual",
                 "source_company": "Botanical Interests"
             },
+            "days_to_emerge_range": [5, 10],
             "direct_sow": {
-                "recommended": false,
-                "min_soil_temp_f": 60,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
-                    }
-                }
+                "recommended": false
             },
             "transplanting": {
                 "recommended": true,
@@ -558,8 +539,10 @@
                     }
                 }
             },
-            "days_to_emerge_range": [5, 10],
-            "days_to_maturity_range": null
+            "successive_sowing": {
+                "recommendation": "highly_recommended",
+                "interval_weeks": [3, 3]
+            }
         },
 
         "sweet_thai_basil": {
@@ -568,18 +551,13 @@
                 "variety_name": "Sweet Thai",
                 "scientific_name": "Ocimum basilicum",
                 "category": "herb",
-                "type": "organic",
-                "description": "Popular in SE Asian cuisine, holds flavor after cooking. Dark purple flowers, terrific for containers. Annual",
+                "type": "heirloom",
+                "description": "Popular in SE Asian cuisine, holds flavor after cooking. Dark purple flowers, anise/clove hints. Terrific for containers. Annual",
                 "source_company": "Botanical Interests"
             },
+            "days_to_emerge_range": [5, 10],
             "direct_sow": {
-                "recommended": false,
-                "min_soil_temp_f": 60,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
-                    }
-                }
+                "recommended": false
             },
             "transplanting": {
                 "recommended": true,
@@ -591,8 +569,10 @@
                     }
                 }
             },
-            "days_to_emerge_range": [5, 10],
-            "days_to_maturity_range": null
+            "successive_sowing": {
+                "recommendation": "highly_recommended",
+                "interval_weeks": [3, 3]
+            }
         },
 
         "thai_basil": {
@@ -602,29 +582,23 @@
                 "scientific_name": "Ocimum basilicum",
                 "category": "herb",
                 "type": "organic",
-                "description": "Annual. Harvest morning when cool. Complete harvest before flowering. Cut to 4-6\" for second growth",
+                "description": "12-18\" tall. Harvest morning when cool. Complete harvest before flowering. Cut to 4-6\" for second growth. Annual",
                 "source_company": "Sereniseed"
             },
+            "days_to_emerge_range": [5, 10],
             "direct_sow": {
-                "recommended": true,
-                "min_soil_temp_f": 65,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [0, 2]
-                    }
-                }
+                "recommended": false
             },
             "transplanting": {
-                "recommended": false,
+                "recommended": true,
                 "start_indoors_weeks_before_last_frost_range": [6, 6],
                 "planting_windows": {
                     "spring": {
                         "weeks_after_last_frost_range": [0, 2]
                     }
-                }
-            },
-            "days_to_emerge_range": [5, 10],
-            "days_to_maturity_range": [64, 64]
+                },
+                "days_to_maturity_from_transplant_range": [64, 64]
+            }
         },
 
         "common_chives": {
@@ -634,9 +608,10 @@
                 "scientific_name": "Allium schoenoprasum",
                 "category": "herb",
                 "type": "organic",
-                "description": "Edible flowers, grows best in clumps",
+                "description": "10-18\" tall. Edible flowers. Grows best in clumps. Frost hardy. Perennial",
                 "source_company": "Sereniseed"
             },
+            "days_to_emerge_range": [10, 14],
             "direct_sow": {
                 "recommended": false
             },
@@ -647,39 +622,41 @@
                     "spring": {
                         "weeks_after_last_frost_range": [0, 4]
                     }
-                }
-            },
-            "days_to_emerge_range": [10, 14],
-            "days_to_maturity_range": [60, 60]
+                },
+                "days_to_maturity_from_transplant_range": [60, 60]
+            }
         },
 
-        "cilantro_coriander": {
+        "cilantro": {
             "characteristics": {
                 "common_name": "Cilantro",
-                "variety_name": "Coriander",
+                "variety_name": "Cilantro/Coriander",
                 "scientific_name": "Coriandrum sativum",
                 "category": "herb",
                 "type": "organic",
-                "description": "Annual. Leaves=cilantro, seeds=coriander. Best 50-85°F. Succession plant weekly spring/fall. Bolts above 85°F",
-                "source_company": "Ferry-Morse"
+                "description": "12-28\" tall. Cool season crop (50-85°F ideal). Leaves=cilantro, seeds=coriander. Bolts above 85°F. Tolerates light frost. Annual",
+                "source_company": "Ferry-Morse, Sereniseed"
             },
+            "days_to_emerge_range": [7, 21],
             "direct_sow": {
                 "recommended": true,
-                "max_temp_f": 85,
                 "planting_windows": {
                     "spring": {
-                        "weeks_after_last_frost_range": [0, 2]
+                        "weeks_after_last_frost_range": [0, 4]
                     },
                     "fall": {
-                        "weeks_before_first_frost_range": [6, 8]
+                        "weeks_before_first_frost_range": [8, 16]
                     }
-                }
+                },
+                "days_to_maturity_from_seed_range": [50, 70]
             },
             "transplanting": {
                 "recommended": false
             },
-            "days_to_emerge_range": [7, 21],
-            "days_to_maturity_range": [50, 70]
+            "successive_sowing": {
+                "recommendation": "highly_recommended",
+                "interval_weeks": [1, 2]
+            }
         },
 
         "bouquet_dill": {
@@ -689,22 +666,26 @@
                 "scientific_name": "Anethum graveolens",
                 "category": "herb",
                 "type": "organic",
-                "description": "Annual. Low water needs except in containers. Reseed every 2 weeks for continuous supply",
+                "description": "24-36\" tall. Low water needs except in containers. Heat and frost tolerant. Annual",
                 "source_company": "Sereniseed"
             },
+            "days_to_emerge_range": [7, 21],
             "direct_sow": {
                 "recommended": true,
                 "planting_windows": {
                     "spring": {
-                        "weeks_after_last_frost_range": [0, 2]
+                        "weeks_after_last_frost_range": [0, 4]
                     }
-                }
+                },
+                "days_to_maturity_from_seed_range": [60, 90]
             },
             "transplanting": {
                 "recommended": false
             },
-            "days_to_emerge_range": [7, 21],
-            "days_to_maturity_range": [60, 90]
+            "successive_sowing": {
+                "recommendation": "highly_recommended",
+                "interval_weeks": [2, 2]
+            }
         },
 
         "english_lavender": {
@@ -714,9 +695,10 @@
                 "scientific_name": "Lavandula angustifolia",
                 "category": "herb",
                 "type": "organic",
-                "description": "Perennial zones 5+, annual colder. Trim every 3 years for health. Don't overwater",
+                "description": "18-24\" tall. Perennial in Zone 5+. 2nd year maturity. Well-drained, fairly dry soil. Trim every 3 years. Heat tolerant",
                 "source_company": "Sereniseed"
             },
+            "days_to_emerge_range": [14, 30],
             "direct_sow": {
                 "recommended": false
             },
@@ -728,9 +710,7 @@
                         "weeks_after_last_frost_range": [0, 4]
                     }
                 }
-            },
-            "days_to_emerge_range": [14, 30],
-            "days_to_maturity_range": [100, 100]
+            }
         },
 
         "common_mint": {
@@ -1507,6 +1487,9 @@
             },
             "days_to_emerge_range": [5, 10],
             "days_to_maturity_range": [35, 60]
-        }
+        },
+
+        "potatoes":{},
+        "ginger":{}
     }
 }
