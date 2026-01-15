@@ -30,7 +30,8 @@
             "transplanting": {
                 "recommended": true,
                 "start_indoors_weeks_before_transplant_range": [4, 6],
-                "min_air_temp_f": 45,
+                "min_nighttime_temp_f": 50,
+                "min_soil_temp_f": 60,
                 "planting_windows": {
                     "spring": {
                         "weeks_after_last_frost_range": [1, 8]
@@ -64,7 +65,8 @@
             "transplanting": {
                 "recommended": true,
                 "start_indoors_weeks_before_transplant_range": [4, 6],
-                "min_air_temp_f": 45,
+                "min_nighttime_temp_f": 50,
+                "min_soil_temp_f": 60,
                 "planting_windows": {
                     "spring": {
                         "weeks_after_last_frost_range": [1, 8]
@@ -98,7 +100,8 @@
             "transplanting": {
                 "recommended": true,
                 "start_indoors_weeks_before_transplant_range": [4, 6],
-                "min_air_temp_f": 45,
+                "min_nighttime_temp_f": 50,
+                "min_soil_temp_f": 60,
                 "planting_windows": {
                     "spring": {
                         "weeks_after_last_frost_range": [1, 8]
@@ -133,7 +136,8 @@
             "transplanting": {
                 "recommended": true,
                 "start_indoors_weeks_before_transplant_range": [4, 6],
-                "min_air_temp_f": 45,
+                "min_nighttime_temp_f": 50,
+                "min_soil_temp_f": 60,
                 "planting_windows": {
                     "spring": {
                         "weeks_after_last_frost_range": [1, 8]
@@ -167,7 +171,8 @@
             "transplanting": {
                 "recommended": true,
                 "start_indoors_weeks_before_transplant_range": [4, 6],
-                "min_air_temp_f": 45,
+                "min_nighttime_temp_f": 50,
+                "min_soil_temp_f": 60,
                 "planting_windows": {
                     "spring": {
                         "weeks_after_last_frost_range": [1, 8]
@@ -202,7 +207,8 @@
             "transplanting": {
                 "recommended": true,
                 "start_indoors_weeks_before_transplant_range": [4, 6],
-                "min_air_temp_f": 45,
+                "min_nighttime_temp_f": 50,
+                "min_soil_temp_f": 60,
                 "planting_windows": {
                     "spring": {
                         "weeks_after_last_frost_range": [1, 8]
@@ -236,7 +242,8 @@
             "transplanting": {
                 "recommended": true,
                 "start_indoors_weeks_before_transplant_range": [6, 8],
-                "min_air_temp_f": 45,
+                "min_nighttime_temp_f": 50,
+                "min_soil_temp_f": 60,
                 "planting_windows": {
                     "spring": {
                         "weeks_after_last_frost_range": [1, 8]
@@ -269,11 +276,11 @@
             "transplanting": {
                 "recommended": true,
                 "start_indoors_weeks_before_transplant_range": [8, 10],
-                "min_air_temp_f": 65,
                 "min_nighttime_temp_f": 55,
+                "min_soil_temp_f": 60,
                 "planting_windows": {
                     "spring": {
-                        "weeks_after_last_frost_range": [1, 8]
+                        "weeks_after_last_frost_range": [3, 6]
                     },
                     "fall": {
                         "weeks_before_first_frost_range": [12, 16]
@@ -303,11 +310,11 @@
             "transplanting": {
                 "recommended": true,
                 "start_indoors_weeks_before_transplant_range": [8, 10],
-                "min_air_temp_f": 70,
                 "min_nighttime_temp_f": 55,
+                "min_soil_temp_f": 60,
                 "planting_windows": {
                     "spring": {
-                        "weeks_after_last_frost_range": [2, 4]
+                        "weeks_after_last_frost_range": [3, 6]
                     },
                     "fall": {
                         "weeks_before_first_frost_range": [12, 16]
@@ -337,11 +344,11 @@
             "transplanting": {
                 "recommended": true,
                 "start_indoors_weeks_before_transplant_range": [8, 10],
-                "min_air_temp_f": 70,
                 "min_nighttime_temp_f": 55,
+                "min_soil_temp_f": 60,
                 "planting_windows": {
                     "spring": {
-                        "weeks_after_last_frost_range": [2, 4]
+                        "weeks_after_last_frost_range": [3, 6]
                     },
                     "fall": {
                         "weeks_before_first_frost_range": [12, 16]
@@ -371,11 +378,11 @@
             "transplanting": {
                 "recommended": true,
                 "start_indoors_weeks_before_transplant_range": [8, 10],
-                "min_air_temp_f": 70,
                 "min_nighttime_temp_f": 55,
+                "min_soil_temp_f": 60,
                 "planting_windows": {
                     "spring": {
-                        "weeks_after_last_frost_range": [2, 4]
+                        "weeks_after_last_frost_range": [3, 6]
                     },
                     "fall": {
                         "weeks_before_first_frost_range": [12, 16]
@@ -405,6 +412,8 @@
             "transplanting": {
                 "recommended": true,
                 "start_indoors_weeks_before_transplant_range": [8, 12],
+                "min_nighttime_temp_f": 32,
+                "min_soil_temp_f": 50,
                 "planting_windows": {
                     "spring": {
                         "weeks_after_last_frost_range": [0, 2]
@@ -434,7 +443,7 @@
             "days_to_emerge_range": [10, 15],
             "direct_sow": {
                 "recommended": true,
-                "min_soil_temp_f": 80,
+                "min_soil_temp_f": 70,
                 "planting_windows": {
                     "spring": {
                         "weeks_after_last_frost_range": [2, 6]
@@ -469,7 +478,7 @@
             "days_to_emerge_range": [10, 15],
             "direct_sow": {
                 "recommended": true,
-                "min_soil_temp_f": 80,
+                "min_soil_temp_f": 70,
                 "planting_windows": {
                     "spring": {
                         "weeks_after_last_frost_range": [2, 6]
@@ -509,9 +518,10 @@
                 "recommended": true,
                 "start_indoors_weeks_before_transplant_range": [4, 6],
                 "min_nighttime_temp_f": 50,
+                "min_soil_temp_f": 60,
                 "planting_windows": {
                     "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
+                        "weeks_after_last_frost_range": [1, 3]
                     }
                 }
             },
@@ -539,9 +549,10 @@
                 "recommended": true,
                 "start_indoors_weeks_before_transplant_range": [4, 6],
                 "min_nighttime_temp_f": 50,
+                "min_soil_temp_f": 60,
                 "planting_windows": {
                     "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
+                        "weeks_after_last_frost_range": [1, 3]
                     }
                 }
             },
@@ -569,9 +580,10 @@
                 "recommended": true,
                 "start_indoors_weeks_before_transplant_range": [4, 6],
                 "min_nighttime_temp_f": 50,
+                "min_soil_temp_f": 60,
                 "planting_windows": {
                     "spring": {
-                        "weeks_after_last_frost_range": [0, 2]
+                        "weeks_after_last_frost_range": [1, 3]
                     }
                 },
                 "days_to_maturity_from_transplant_range": [60, 70]
@@ -599,9 +611,11 @@
             "transplanting": {
                 "recommended": true,
                 "start_indoors_weeks_before_transplant_range": [6, 8],
+                "min_nighttime_temp_f": 32,
+                "min_soil_temp_f": 40,
                 "planting_windows": {
                     "spring": {
-                        "weeks_after_last_frost_range": [0, 4]
+                        "weeks_after_last_frost_range": [-4, 4]
                     }
                 },
                 "days_to_maturity_from_transplant_range": [60, 60]
@@ -624,12 +638,13 @@
             "days_to_emerge_range": [7, 21],
             "direct_sow": {
                 "recommended": true,
+                "soil_temp_range_f": [45, 75],
                 "planting_windows": {
                     "spring": {
                         "weeks_after_last_frost_range": [0, 4]
                     },
                     "fall": {
-                        "weeks_before_first_frost_range": [8, 16]
+                        "weeks_before_first_frost_range": [8, 10]
                     }
                 },
                 "days_to_maturity_from_seed_range": [50, 70]
@@ -656,6 +671,7 @@
             "days_to_emerge_range": [7, 21],
             "direct_sow": {
                 "recommended": true,
+                "min_soil_temp_f": 50,
                 "planting_windows": {
                     "spring": {
                         "weeks_after_last_frost_range": [0, 4]
@@ -689,6 +705,8 @@
             "transplanting": {
                 "recommended": true,
                 "start_indoors_weeks_before_transplant_range": [12, 16],
+                "min_nighttime_temp_f": 32,
+                "min_soil_temp_f": 50,
                 "planting_windows": {
                     "spring": {
                         "weeks_after_last_frost_range": [0, 4]
@@ -717,10 +735,14 @@
             "transplanting": {
                 "recommended": true,
                 "start_indoors_weeks_before_transplant_range": [6, 8],
-                "min_soil_temp_f": 65,
+                "min_nighttime_temp_f": 32,
+                "min_soil_temp_f": 45,
                 "planting_windows": {
                     "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
+                        "weeks_after_last_frost_range": [0, 4]
+                    },
+                    "fall": {
+                        "weeks_before_first_frost_range": [8, 12]
                     }
                 }
             },
@@ -746,10 +768,14 @@
             "transplanting": {
                 "recommended": true,
                 "start_indoors_weeks_before_transplant_range": [6, 8],
-                "min_soil_temp_f": 65,
+                "min_nighttime_temp_f": 32,
+                "min_soil_temp_f": 45,
                 "planting_windows": {
                     "spring": {
-                        "weeks_after_last_frost_range": [3, 6]
+                        "weeks_after_last_frost_range": [0, 4]
+                    },
+                    "fall": {
+                        "weeks_before_first_frost_range": [8, 12]
                     }
                 },
                 "days_to_maturity_from_transplant_range": [90, 120]
@@ -776,9 +802,11 @@
             "transplanting": {
                 "recommended": true,
                 "start_indoors_weeks_before_transplant_range": [6, 8],
+                "min_nighttime_temp_f": 32,
+                "min_soil_temp_f": 50,
                 "planting_windows": {
                     "spring": {
-                        "weeks_after_last_frost_range": [3, 6]
+                        "weeks_after_last_frost_range": [0, 4]
                     }
                 },
                 "days_to_maturity_from_transplant_range": [85, 85]
@@ -805,9 +833,14 @@
             "transplanting": {
                 "recommended": true,
                 "start_indoors_weeks_before_transplant_range": [10, 12],
+                "min_nighttime_temp_f": 32,
+                "min_soil_temp_f": 40,
                 "planting_windows": {
                     "spring": {
-                        "weeks_after_last_frost_range": [0, 2]
+                        "weeks_after_last_frost_range": [-4, 2]
+                    },
+                    "fall": {
+                        "weeks_before_first_frost_range": [6, 10]
                     }
                 },
                 "days_to_maturity_from_transplant_range": [85, 85]
@@ -835,9 +868,11 @@
             "transplanting": {
                 "recommended": true,
                 "start_indoors_weeks_before_transplant_range": [10, 12],
+                "min_nighttime_temp_f": 40,
+                "min_soil_temp_f": 50,
                 "planting_windows": {
                     "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
+                        "weeks_after_last_frost_range": [0, 4]
                     }
                 }
             },
@@ -863,9 +898,14 @@
             "transplanting": {
                 "recommended": true,
                 "start_indoors_weeks_before_transplant_range": [10, 10],
+                "min_nighttime_temp_f": 32,
+                "min_soil_temp_f": 45,
                 "planting_windows": {
                     "spring": {
-                        "weeks_after_last_frost_range": [0, 2]
+                        "weeks_after_last_frost_range": [0, 4]
+                    },
+                    "fall": {
+                        "weeks_before_first_frost_range": [8, 12]
                     }
                 },
                 "days_to_maturity_from_transplant_range": [75, 75]
@@ -892,9 +932,14 @@
             "transplanting": {
                 "recommended": true,
                 "start_indoors_weeks_before_transplant_range": [8, 8],
+                "min_nighttime_temp_f": 32,
+                "min_soil_temp_f": 45,
                 "planting_windows": {
                     "spring": {
-                        "weeks_after_last_frost_range": [0, 2]
+                        "weeks_after_last_frost_range": [0, 4]
+                    },
+                    "fall": {
+                        "weeks_before_first_frost_range": [8, 12]
                     }
                 },
                 "days_to_maturity_from_transplant_range": [85, 85]
@@ -917,7 +962,7 @@
             "days_to_emerge_range": [7, 14],
             "direct_sow": {
                 "recommended": true,
-                "soil_temp_range_f": [70, 90],
+                "min_soil_temp_f": 70,
                 "planting_windows": {
                     "spring": {
                         "weeks_after_last_frost_range": [6, 10]
@@ -946,7 +991,7 @@
             "days_to_emerge_range": [7, 14],
             "direct_sow": {
                 "recommended": true,
-                "soil_temp_range_f": [70, 90],
+                "min_soil_temp_f": 70,
                 "planting_windows": {
                     "spring": {
                         "weeks_after_last_frost_range": [6, 10]
@@ -956,6 +1001,106 @@
             },
             "transplanting": {
                 "recommended": false
+            },
+            "successive_sowing": {
+                "recommendation": "not_recommended"
+            }
+        },
+
+        "black_seeded_simpson_lettuce": {
+            "characteristics": {
+                "common_name": "Lettuce",
+                "variety_name": "Black Seeded Simpson",
+                "scientific_name": "Lactuca sativa",
+                "category": "leafy_green",
+                "type": "heirloom",
+                "description": "Crisp loose leaf heads with broad, light-green, frilled and crumpled leaves. Delicate flavor. Heat-sensitive.",
+                "source_company": "Burpee"
+            },
+            "days_to_emerge_range": [7, 10],
+            "direct_sow": {
+                "recommended": true,
+                "soil_temp_range_f": [40, 75],
+                "planting_windows": {
+                    "spring": {
+                        "weeks_after_last_frost_range": [-6, -2]
+                    },
+                    "fall": {
+                        "weeks_before_first_frost_range": [8, 14]
+                    }
+                },
+                "days_to_maturity_from_seed_range": [45, 45]
+            },
+            "transplanting": {
+                "recommended": false
+            },
+            "successive_sowing": {
+                "recommendation": "highly_recommended",
+                "interval_weeks": [2, 3]
+            }
+        },
+
+        "thank_you_lettuce_mesclun": {
+            "characteristics": {
+                "common_name": "Lettuce",
+                "variety_name": "Thank You Mesclun Mix",
+                "scientific_name": "Lactuca sativa",
+                "category": "leafy_green",
+                "type": "mesclun_mix",
+                "description": "Custom mesclun blend for fresh salads. No thinning required for baby greens. Broadcast sowing. Light aids germination.",
+                "source_company": "Botanical Interests"
+            },
+            "days_to_emerge_range": [5, 14],
+            "direct_sow": {
+                "recommended": true,
+                "soil_temp_range_f": [40, 75],
+                "planting_windows": {
+                    "spring": {
+                        "weeks_after_last_frost_range": [-4, -2]
+                    },
+                    "fall_into_winter": {
+                        "weeks_before_first_frost_range": [6, 14]
+                    }
+                },
+                "days_to_maturity_from_seed_range": [20, 45]
+            },
+            "transplanting": {
+                "recommended": false
+            },
+            "successive_sowing": {
+                "recommendation": "highly_recommended",
+                "interval_weeks": [3, 3]
+            }
+        },
+
+        "watercress": {
+            "characteristics": {
+                "common_name": "Watercress",
+                "variety_name": "Watercress",
+                "scientific_name": "Nasturtium officinale",
+                "category": "leafy_green",
+                "type": "heirloom",
+                "description": "Peppery pungent flavor, high in vitamins A/C/K, potassium, calcium. Requires constant moisture. Grows in moist shady areas, containers, or near water.",
+                "source_company": "Botanical Interests"
+            },
+            "days_to_emerge_range": [5, 15],
+            "direct_sow": {
+                "recommended": false
+            },
+            "transplanting": {
+                "recommended": true,
+                "start_indoors_weeks_before_transplant_range": [4, 6],
+                "min_nighttime_temp_f": 32,
+                "min_soil_temp_f": 45,
+                "planting_windows": {
+                    "spring": {
+                        "weeks_after_last_frost_range": [-4, -2]
+                    },
+                    "fall": {
+                        "weeks_before_first_frost_range": [6, 10]
+                    }
+                },
+                "days_to_maturity_from_transplant_range": [60, 90]
             },
             "successive_sowing": {
                 "recommendation": "not_recommended"
@@ -979,9 +1124,11 @@
             "transplanting": {
                 "recommended": true,
                 "start_indoors_weeks_before_transplant_range": [6, 8],
+                "min_nighttime_temp_f": 25,
+                "min_soil_temp_f": 40,
                 "planting_windows": {
                     "spring": {
-                        "weeks_before_last_frost_range": [4, 6]
+                        "weeks_after_last_frost_range": [-6, -4]
                     },
                     "fall": {
                         "weeks_before_first_frost_range": [10, 14]
@@ -1011,12 +1158,14 @@
             "transplanting": {
                 "recommended": true,
                 "start_indoors_weeks_before_transplant_range": [6, 8],
+                "min_nighttime_temp_f": 32,
+                "min_soil_temp_f": 45,
                 "planting_windows": {
                     "spring": {
-                        "weeks_before_last_frost_range": [4, 6]
+                        "weeks_after_last_frost_range": [-6, -4]
                     },
                     "fall": {
-                        "weeks_before_first_frost_range": [12, 14]
+                        "weeks_before_first_frost_range": [10, 14]
                     }
                 },
                 "days_to_maturity_from_transplant_range": [65, 70]
@@ -1039,9 +1188,10 @@
             "days_to_emerge_range": [8, 12],
             "direct_sow": {
                 "recommended": true,
+                "soil_temp_range_f": [40, 80],
                 "planting_windows": {
                     "spring": {
-                        "weeks_before_last_frost_range": [2, 6]
+                        "weeks_after_last_frost_range": [-6, -2]
                     },
                     "fall": {
                         "weeks_before_first_frost_range": [8, 12]
@@ -1058,130 +1208,71 @@
             }
         },
 
-        "black_seeded_simpson_lettuce": {
+        "mustard_greens": {
             "characteristics": {
-                "common_name": "Lettuce",
-                "variety_name": "Black Seeded Simpson",
-                "scientific_name": "Lactuca sativa",
-                "category": "leafy_green",
-                "type": "heirloom",
-                "description": "Crisp loose leaf heads with broad, light-green, frilled and crumpled leaves. Delicate flavor. Heat-sensitive.",
-                "source_company": "Burpee"
+                "common_name": "Mustard Greens",
+                "variety_name": "Unknown Variety",
+                "scientific_name": "Brassica juncea",
+                "category": "brassica",
+                "type": "unknown",
+                "description": "Fast-growing, peppery spicy flavor. Young leaves mild for salads, mature best cooked. Cold hardy.",
+                "source_company": "Family"
             },
-            "days_to_emerge_range": [7, 10],
+            "days_to_emerge_range": [5, 10],
             "direct_sow": {
                 "recommended": true,
+                "soil_temp_range_f": [45, 75],
                 "planting_windows": {
                     "spring": {
-                        "weeks_before_last_frost_range": [6, 2]
+                        "weeks_after_last_frost_range": [1, 6]
                     },
                     "fall": {
-                        "weeks_before_first_frost_range": [10, 14]
+                        "weeks_before_first_frost_range": [8, 12]
                     }
                 },
-                "days_to_maturity_from_seed_range": [45, 45]
+                "days_to_maturity_from_seed_range": [30, 60]
             },
             "transplanting": {
                 "recommended": false
             },
             "successive_sowing": {
-                "recommendation": "highly_recommended",
+                "recommendation": "recommended",
                 "interval_weeks": [2, 3]
             }
         },
 
-        "thank_you_lettuce_mesclun": {
+        "common_ginger": {
             "characteristics": {
-                "common_name": "Lettuce",
-                "variety_name": "Thank You Mesclun Mix",
-                "scientific_name": "Lactuca sativa",
-                "category": "leafy_green",
-                "type": "mesclun_mix",
-                "description": "Custom mesclun blend for fresh salads. No thinning required for baby greens. Broadcast sowing. Light aids germination.",
-                "source_company": "Botanical Interests"
+                "common_name": "Ginger",
+                "variety_name": "Common Ginger",
+                "scientific_name": "Zingiber officinale",
+                "category": "root_vegetable",
+                "type": "rhizome",
+                "description": "Tropical rhizome with pungent, spicy flavor. Grocery store ginger works - choose organic with visible buds. Best grown in containers. Goes dormant in winter.",
+                "source_company": "grocery_store"
             },
-            "days_to_emerge_range": [5, 14],
+            "days_to_emerge_range": [14, 28],
             "direct_sow": {
+                "recommended": false
+            },
+            "transplanting": {
                 "recommended": true,
-                "soil_temp_range_f": [40, 70],
+                "min_nighttime_temp_f": 55,
+                "soil_temp_range_f": [68, 77],
                 "planting_windows": {
                     "spring": {
-                        "weeks_before_last_frost_range": [2, 4]
-                    },
-                    "fall_into_winter": {
-                        "weeks_before_first_frost_range": [6, 14]
+                        "weeks_after_last_frost_range": [2, 6]
                     }
                 },
-                "days_to_maturity_from_seed_range": [20, 45]
-            },
-            "transplanting": {
-                "recommended": false
+                "days_to_maturity_from_transplant_range": [120, 300]
             },
             "successive_sowing": {
-                "recommendation": "highly_recommended",
-                "interval_weeks": [3, 3]
+                "recommendation": "not_recommended"
+            },
+            "special_requirements": {
+                "soak_overnight_hours": 24,
+                "pre_sprout_weeks_indoors": [4, 6]
             }
-        },
-
-        "mustard_greens": {
-            "characteristics": {
-                "common_name": "Mustard Greens",
-                "variety_name": "General Mustard Greens",
-                "scientific_name": "Brassica juncea",
-                "category": "leafy_green",
-                "type": "heirloom",
-                "description": "Fast-growing, peppery spicy flavor. Young leaves mild for salads, mature best cooked. Cold hardy, heat tolerant",
-                "source_company": null
-            },
-            "direct_sow": {
-                "recommended": true,
-                "min_soil_temp_f": 45,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_before_last_frost_range": [2, 4]
-                    },
-                    "fall": {
-                        "weeks_before_first_frost_range": [6, 8]
-                    }
-                }
-            },
-            "transplanting": {
-                "recommended": false
-            },
-            "days_to_emerge_range": [5, 10],
-            "days_to_maturity_range": [35, 45]
-        },
-
-        "watercress": {
-            "characteristics": {
-                "common_name": "Watercress",
-                "variety_name": "Watercress",
-                "scientific_name": "Nasturtium officinale",
-                "category": "leafy_green",
-                "type": "organic",
-                "description": "Heirloom. Perennial. Peppery pungent, high in vitamins A/C/K, potassium, calcium. Antioxidant properties. Grows in moist shady areas or containers",
-                "source_company": "Botanical Interests"
-            },
-            "direct_sow": {
-                "recommended": true,
-                "min_soil_temp_f": 50,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_before_last_frost_range": [2, 4]
-                    }
-                }
-            },
-            "transplanting": {
-                "recommended": true,
-                "start_indoors_weeks_before_last_frost_range": [4, 6],
-                "planting_windows": {
-                    "spring": {
-                        "weeks_before_last_frost_range": [2, 4]
-                    }
-                }
-            },
-            "days_to_emerge_range": [5, 15],
-            "days_to_maturity_range": null
         },
 
         "detroit_dark_red_beet": {
@@ -1190,204 +1281,231 @@
                 "variety_name": "Detroit Dark Red",
                 "scientific_name": "Beta vulgaris",
                 "category": "root_vegetable",
-                "type": "organic",
-                "description": "Heirloom since 1892. Tender buttery-sweet 2½-3\" deep crimson beets, won't get woody when large. Greens tasty, iron-rich. Perfect for pickling/roasting/raw",
+                "type": "heirloom",
+                "description": "Heirloom since 1892. Tender buttery-sweet 2½-3\" deep crimson beets, won't get woody when large. Greens tasty, iron-rich. Perfect for pickling/roasting/raw. Frost tolerant.",
                 "source_company": "Botanical Interests"
             },
+            "days_to_emerge_range": [5, 21],
+            "direct_sow": {
+                "recommended": true,
+                "soil_temp_range_f": [40, 85],
+                "planting_windows": {
+                    "spring": {
+                        "weeks_after_last_frost_range": [-4, -2]
+                    },
+                    "fall": {
+                        "weeks_before_first_frost_range": [6, 8]
+                    }
+                },
+                "days_to_maturity_from_seed_range": [60, 60]
+            },
+            "transplanting": {
+                "recommended": false
+            },
+            "successive_sowing": {
+                "recommendation": "recommended",
+                "interval_weeks": [2, 3]
+            }
+        },
+
+        "gold_potatoes": {
+            "characteristics": {
+                "common_name": "Potato",
+                "variety_name": "Gold/Yukon Gold",
+                "scientific_name": "Solanum tuberosum",
+                "category": "root_vegetable",
+                "type": "tuber",
+                "description": "Cool season crop. Use certified seed potatoes for best results. Grocery store potatoes may be treated with sprout inhibitors but can work. Gold-fleshed variety with creamy texture, ideal for all-purpose cooking.",
+                "source_company": null
+            },
+            "days_to_emerge_range": [14, 21],
             "direct_sow": {
                 "recommended": true,
                 "min_soil_temp_f": 45,
                 "planting_windows": {
                     "spring": {
-                        "weeks_before_last_frost_range": [2, 4]
+                        "weeks_after_last_frost_range": [-6, -4]
                     },
-                    "summer": {
-                        "weeks_before_first_frost_range": [6, 8]
+                    "fall": {
+                        "weeks_before_first_frost_range": [14, 16]
                     }
-                }
+                },
+                "days_to_maturity_from_seed_range": [75, 100]
             },
             "transplanting": {
                 "recommended": false
             },
-            "days_to_emerge_range": [5, 21],
-            "days_to_maturity_range": [60, 60]
+            "successive_sowing": {
+                "recommendation": "not_recommended"
+            },
+            "special_requirements": {
+                "pre_sprout_weeks_before_planting_range": [4, 6]
+            }
         },
 
         "sugar_daddy_snap_pea": {
             "characteristics": {
-                "common_name": "Pea Snap",
+                "common_name": "Snap Pea",
                 "variety_name": "Sugar Daddy",
                 "scientific_name": "Pisum sativum",
                 "category": "legume",
-                "type": "heirloom",
-                "description": "Bred by Sugar Snap creator. Stringless pods, short 24-30\" vines, improved disease resistance. No support needed but helps harvest. Powdery mildew resistant",
+                "type": "open_pollinated",
+                "description": "Bred by Sugar Snap creator. Stringless pods, short 24-30\" vines, improved disease resistance. No support needed but helps harvest. Powdery mildew resistant, bean leaf roll virus tolerant.",
                 "source_company": "Botanical Interests"
             },
+            "days_to_emerge_range": [5, 10],
             "direct_sow": {
                 "recommended": true,
-                "min_soil_temp_f": 40,
+                "soil_temp_range_f": [40, 75],
                 "planting_windows": {
                     "spring": {
-                        "weeks_before_last_frost_range": [4, 6]
+                        "weeks_after_last_frost_range": [-6, -4]
                     },
                     "fall": {
-                        "weeks_before_first_frost_range": [10, 12]
+                        "weeks_before_first_frost_range": [8, 10]
                     }
-                }
+                },
+                "days_to_maturity_from_seed_range": [62, 75]
             },
             "transplanting": {
                 "recommended": false
             },
-            "days_to_emerge_range": [5, 10],
-            "days_to_maturity_range": [62, 75]
+            "successive_sowing": {
+                "recommendation": "not_recommended"
+            }
         },
 
         "tokyo_long_white_bunching_onion": {
             "characteristics": {
-                "common_name": "Onion",
-                "variety_name": "Tokyo Long White (Bunching)",
+                "common_name": "Bunching Onion (Scallion)",
+                "variety_name": "Tokyo Long White",
                 "scientific_name": "Allium fistulosum",
                 "category": "allium",
                 "type": "heirloom",
-                "description": "Heirloom. High yielding 12\" bunching onions (scallions), sweet mild flavor",
+                "description": "High yielding 12\" bunching onions (scallions) with sweet, mild flavor. Cold hardy, can overwinter in Austin.",
                 "source_company": "Burpee"
             },
+            "days_to_emerge_range": [7, 14],
             "direct_sow": {
                 "recommended": true,
+                "soil_temp_range_f": [35, 90],
                 "planting_windows": {
                     "spring": {
-                        "weeks_after_last_frost_range": [0, 2]
+                        "weeks_after_last_frost_range": [0, 4]
                     },
                     "fall": {
-                        "weeks_before_first_frost_range": [8, 12]
+                        "weeks_before_first_frost_range": [9, 17]
                     }
-                }
+                },
+                "days_to_maturity_from_seed_range": [65, 70]
             },
             "transplanting": {
                 "recommended": false
             },
-            "days_to_emerge_range": [7, 14],
-            "days_to_maturity_range": [65, 70]
+            "successive_sowing": {
+                "recommendation": "recommended",
+                "interval_weeks": [3, 4]
+            }
         },
 
         "cyanus_double_mixed_colors_bachelor_button": {
             "characteristics": {
-                "common_name": "Bachelor Button",
+                "common_name": "Bachelor Button (Cornflower)",
                 "variety_name": "Cyanus Double, Mixed Colors",
                 "scientific_name": "Centaurea cyanus",
                 "category": "flower",
-                "type": "heirloom",
-                "description": "Annual. Blue/pink/ruby-red/white shades. Larger than common Bachelor Buttons. Prolific, minimal care",
+                "type": "annual",
+                "description": "Mixed shades of blue, pink, ruby-red and white. Larger blooms than common Bachelor Buttons. Prolific bloomer, minimal care. Cool season annual.",
                 "source_company": "Ferry-Morse"
             },
+            "days_to_emerge_range": [10, 15],
             "direct_sow": {
                 "recommended": true,
+                "soil_temp_range_f": [40, 70],
                 "planting_windows": {
                     "spring": {
-                        "weeks_after_last_frost_range": [0, 2]
+                        "weeks_after_last_frost_range": [-4, 4]
+                    },
+                    "fall": {
+                        "weeks_before_first_frost_range": [8, 10]
                     }
-                }
+                },
+                "days_to_maturity_from_seed_range": [42, 49]
             },
             "transplanting": {
                 "recommended": false
             },
-            "days_to_emerge_range": [10, 15],
-            "days_to_maturity_range": [42, 49]
+            "successive_sowing": {
+                "recommendation": "recommended",
+                "interval_weeks": [3, 4]
+            }
         },
 
         "chief_red_flame_celosia": {
             "characteristics": {
-                "common_name": "Celosia",
+                "common_name": "Celosia (Cockscomb)",
                 "variety_name": "Chief Red Flame",
                 "scientific_name": "Celosia argentea var. cristata",
                 "category": "flower",
-                "type": "organic",
-                "description": "Annual. Compact uniform cockscomb, hundreds of tiny flowers in tight waves. Long-lasting, attracts pollinators. Heat/drought tolerant. 16-30\" tall",
+                "type": "annual",
+                "description": "Compact uniform red cockscomb, hundreds of tiny flowers in tight waves. Long-lasting cut flower. Attracts pollinators summer to frost. Heat/drought tolerant. 16-30\" tall.",
                 "source_company": "Botanical Interests"
-            },
-            "direct_sow": {
-                "recommended": true,
-                "min_soil_temp_f": 60,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [0, 2]
-                    }
-                }
-            },
-            "transplanting": {
-                "recommended": true,
-                "start_indoors_weeks_before_last_frost_range": [6, 8],
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [0, 2]
-                    }
-                }
             },
             "days_to_emerge_range": [7, 14],
-            "days_to_maturity_range": null
-        },
-
-        "rainbow_blend_coleus": {
-            "characteristics": {
-                "common_name": "Coleus",
-                "variety_name": "Rainbow Blend",
-                "scientific_name": "Plectranthus scutellarioides",
-                "category": "flower",
-                "type": "heirloom",
-                "description": "Annual. Colorful foliage: white/bronze/gold/copper/yellow/pink/red/purple. Excellent houseplant. Brightens shady areas. Deer resistant. 12-36\" tall",
-                "source_company": "Botanical Interests"
-            },
             "direct_sow": {
-                "recommended": true,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
-                    }
-                }
+                "recommended": false
             },
             "transplanting": {
                 "recommended": true,
-                "start_indoors_weeks_before_last_frost_range": [6, 8],
-                "min_soil_temp_f": 70,
+                "start_indoors_weeks_before_transplant_range": [6, 8],
+                "min_nighttime_temp_f": 50,
+                "min_soil_temp_f": 65,
                 "planting_windows": {
                     "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
+                        "weeks_after_last_frost_range": [1, 4]
                     }
-                }
+                },
+                "days_to_maturity_from_transplant_range": [70, 90]
             },
-            "days_to_emerge_range": [15, 20],
-            "days_to_maturity_range": null
+            "successive_sowing": {
+                "recommendation": "recommended",
+                "interval_weeks": [3, 4]
+            }
         },
 
         "chinese_cynoglossum_forget_me_not": {
             "characteristics": {
                 "common_name": "Forget-Me-Not",
-                "variety_name": "Chinese (Cynoglossum)",
+                "variety_name": "Chinese Cynoglossum",
                 "scientific_name": "Cynoglossum amabile",
                 "category": "flower",
-                "type": "heirloom",
-                "description": "Annual. Lacy sprays of tiny celestial blue blossoms. Compact tough versatile plants. Attracts bees",
+                "type": "annual",
+                "description": "Lacy sprays of tiny celestial blue blossoms. Compact, tough, versatile plants. Attracts bees. Good for containers. 15-18\" tall.",
                 "source_company": "Ferry-Morse"
             },
+            "days_to_emerge_range": [8, 10],
             "direct_sow": {
-                "recommended": true,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [0, 2]
-                    }
-                }
+                "recommended": false
             },
             "transplanting": {
                 "recommended": true,
-                "start_indoors_weeks_before_last_frost_range": [6, 8],
+                "start_indoors_weeks_before_transplant_range": [6, 8],
+                "min_nighttime_temp_f": 32,
+                "min_soil_temp_f": 45,
                 "planting_windows": {
                     "spring": {
-                        "weeks_after_last_frost_range": [0, 2]
+                        "weeks_after_last_frost_range": [-2, 4]
+                    },
+                    "fall": {
+                        "weeks_before_first_frost_range": [8, 12]
                     }
-                }
+                },
+                "days_to_maturity_from_transplant_range": [40, 50]
             },
-            "days_to_emerge_range": [8, 10],
-            "days_to_maturity_range": [40, 50]
+            "successive_sowing": {
+                "recommendation": "recommended",
+                "interval_weeks": [3, 4]
+            }
         },
 
         "mixed_colors_foxglove": {
@@ -1396,61 +1514,63 @@
                 "variety_name": "Mixed Colors",
                 "scientific_name": "Digitalis purpurea",
                 "category": "flower",
-                "type": "heirloom",
-                "description": "Perennial. Leafy spikes of bell-shaped blooms. White/shell-pink/deep-rose with crimson/maroon/chocolate markings. Do not ingest seeds",
+                "type": "biennial_perennial",
+                "description": "Biennial/short-lived perennial. Leafy spikes of bell-shaped blooms. White/shell-pink/deep-rose with crimson/maroon/chocolate markings. 4 ft tall. Part shade. POISONOUS - do not ingest seeds.",
                 "source_company": "Ferry-Morse"
             },
+            "days_to_emerge_range": [7, 14],
             "direct_sow": {
-                "recommended": true,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [0, 2]
-                    }
-                }
+                "recommended": false
             },
             "transplanting": {
                 "recommended": true,
-                "start_indoors_weeks_before_last_frost_range": [6, 8],
+                "start_indoors_weeks_before_transplant_range": [6, 8],
+                "min_nighttime_temp_f": 32,
+                "min_soil_temp_f": 50,
                 "planting_windows": {
                     "spring": {
-                        "weeks_after_last_frost_range": [0, 2]
+                        "weeks_after_last_frost_range": [-2, 4]
+                    },
+                    "fall": {
+                        "weeks_before_first_frost_range": [8, 16]
                     }
-                }
+                },
+                "days_to_maturity_from_transplant_range": [120, 130]
             },
-            "days_to_emerge_range": [7, 14],
-            "days_to_maturity_range": [120, 130]
+            "successive_sowing": {
+                "recommendation": "not_recommended"
+            }
         },
 
         "crackerjack_blend_marigold": {
             "characteristics": {
-                "common_name": "Marigold African",
+                "common_name": "African Marigold",
                 "variety_name": "Crackerjack Blend",
                 "scientific_name": "Tagetes erecta",
                 "category": "flower",
-                "type": "heirloom",
-                "description": "Annual. Large majestic 4\" blooms in tangerine/gold/yellow. Mounding form, consistent height, sturdy stalks. Drought tolerant. Deer/rabbit resistant. 24-36\" tall",
+                "type": "annual",
+                "description": "Large majestic 4\" blooms in tangerine orange, rich gold, and lemony yellow. Mounding form, consistent height, sturdy stalks. Long-lasting cut flowers. Drought tolerant. Deer/rabbit resistant. Attracts butterflies. 24-36\" tall.",
                 "source_company": "Botanical Interests"
             },
+            "days_to_emerge_range": [5, 14],
             "direct_sow": {
-                "recommended": false,
-                "min_soil_temp_f": 70,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
-                    }
-                }
+                "recommended": false
             },
             "transplanting": {
                 "recommended": true,
-                "start_indoors_weeks_before_last_frost_range": [4, 6],
+                "start_indoors_weeks_before_transplant_range": [4, 6],
+                "min_nighttime_temp_f": 50,
+                "min_soil_temp_f": 60,
                 "planting_windows": {
                     "spring": {
-                        "weeks_after_last_frost_range": [1, 2]
+                        "weeks_after_last_frost_range": [1, 4]
                     }
-                }
+                },
+                "days_to_maturity_from_transplant_range": [50, 60]
             },
-            "days_to_emerge_range": [5, 14],
-            "days_to_maturity_range": null
+            "successive_sowing": {
+                "recommendation": "not_recommended"
+            }
         },
 
         "giant_cactus_flowered_mix_colors_zinnia": {
@@ -1459,32 +1579,60 @@
                 "variety_name": "Giant Cactus Flowered Mix Colors",
                 "scientific_name": "Zinnia elegans",
                 "category": "flower",
-                "type": "heirloom",
-                "description": "Annual. Giant cactus flowered, brilliant colors. Quilled gracefully curved petals in multiple rows",
+                "type": "annual",
+                "description": "Giant cactus flowered blooms in brilliant color blend. Quilled, gracefully curved petals in multiple rows. Excellent cut flowers. 2-3 ft tall.",
                 "source_company": "Ferry-Morse"
             },
+            "days_to_emerge_range": [5, 10],
             "direct_sow": {
-                "recommended": true,
-                "planting_windows": {
-                    "spring": {
-                        "weeks_after_last_frost_range": [0, 2]
-                    }
-                }
+                "recommended": false
             },
             "transplanting": {
                 "recommended": true,
-                "start_indoors_weeks_before_last_frost_range": [4, 6],
+                "start_indoors_weeks_before_transplant_range": [4, 6],
+                "min_nighttime_temp_f": 50,
+                "min_soil_temp_f": 70,
                 "planting_windows": {
                     "spring": {
-                        "weeks_after_last_frost_range": [0, 2]
+                        "weeks_after_last_frost_range": [2, 6]
+                    }
+                },
+                "days_to_maturity_from_transplant_range": [35, 60]
+            },
+            "successive_sowing": {
+                "recommendation": "recommended",
+                "interval_weeks": [2, 3]
+            }
+        },
+
+        "rainbow_blend_coleus": {
+            "characteristics": {
+                "common_name": "Coleus",
+                "variety_name": "Rainbow Blend",
+                "scientific_name": "Plectranthus scutellarioides",
+                "category": "foliage",
+                "type": "annual",
+                "description": "Colorful foliage blend: white/bronze/gold/copper/yellow/pink/red/purple. Excellent for shade and containers. Deer resistant. Great houseplant. 12-36\" tall, 6-18\" wide.",
+                "source_company": "Botanical Interests"
+            },
+            "days_to_emerge_range": [15, 20],
+            "direct_sow": {
+                "recommended": false
+            },
+            "transplanting": {
+                "recommended": true,
+                "start_indoors_weeks_before_transplant_range": [6, 8],
+                "min_nighttime_temp_f": 50,
+                "min_soil_temp_f": 60,
+                "planting_windows": {
+                    "spring": {
+                        "weeks_after_last_frost_range": [1, 4]
                     }
                 }
             },
-            "days_to_emerge_range": [5, 10],
-            "days_to_maturity_range": [35, 60]
-        },
-
-        "potatoes":{},
-        "ginger":{}
+            "successive_sowing": {
+                "recommendation": "not_recommended"
+            }
+        }
     }
 }
